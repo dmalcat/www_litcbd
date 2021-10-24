@@ -115,7 +115,7 @@
 
   .banner:not(.banner--mobile-bottom) .banner__box {
     background-color: transparent;
-    --color-foreground: purple;
+    --color-foreground: 255, 255, 255;
     --color-button: 255, 255, 255;
     --color-button-text: 0, 0, 0;
   }
@@ -320,4 +320,8 @@
 
 .banner__heading {
   margin-bottom: 0;
+}
+
+.header__heading-link .h2 {
+  color: purple;
 }
