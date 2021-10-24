@@ -115,7 +115,7 @@
 
   .banner:not(.banner--mobile-bottom) .banner__box {
     background-color: transparent;
-    --color-foreground: 255, 255, 255;
+    --color-foreground: purple;
     --color-button: 255, 255, 255;
     --color-button-text: 0, 0, 0;
   }
