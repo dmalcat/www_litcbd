@@ -2326,3 +2326,7 @@ details-disclosure > details {
     stroke: CanvasText;
   }
 }
+
+.rich-text__text {
+  color: yellow;
+}
