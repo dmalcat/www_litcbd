@@ -1,1 +1,1 @@
-{"version":3,"sources":["header.scss"],"names":[],"mappings":"AAAA,sBACC,QAAS","file":"4-components.min.css","sourcesContent":[".header__heading-logo {\n\tdisplay: none;\n}"]}
+{"version":3,"sources":["header.scss"],"names":[],"mappings":"AAAA,sBACC,QAAS","file":"4-components.min.css","sourcesContent":[".header__heading-link {\n\tdisplay: none;\n}"]}
