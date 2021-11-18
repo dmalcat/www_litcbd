@@ -10,28 +10,28 @@
             "heading_size": "medium"
           }
         },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
         "ba123b30-5202-4916-a1e0-c65a34a7fe53": {
           "type": "text",
           "settings": {
             "text": "Lit you soul."
           }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Oleje",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "Květy",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading",
-        "button",
-        "ba123b30-5202-4916-a1e0-c65a34a7fe53"
+        "ba123b30-5202-4916-a1e0-c65a34a7fe53",
+        "button"
       ],
       "settings": {
         "image_height": "medium",
