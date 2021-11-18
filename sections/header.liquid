@@ -337,9 +337,8 @@
       </h1>
     {%- endif -%}
 
-
-    {%- if section.settings.menu != blank -%}
     <div class="header__col">
+    {%- if section.settings.menu != blank -%}
       <nav class="header__inline-menu">
         <ul class="list-menu list-menu--inline" role="list">
           {%- for link in section.settings.menu.links -%}
@@ -389,9 +388,7 @@
           {%- endfor -%}
         </ul>
       </nav>
-    </div>
     {%- endif -%}
-
 
     <div class="header__icons">
       <details-modal class="header__search">
@@ -502,6 +499,7 @@
       </a>
     </div>
   </header>
+  </div>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
 {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
