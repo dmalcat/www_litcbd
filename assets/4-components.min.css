@@ -1,2 +1,2 @@
-.header{display:flex;justify-content:space-between}.header .header-wrapper{background-color:#000}.header .header__col--nav{display:flex}.header-wrapper .header__active-menu-item,.header-wrapper .header__menu-item{color:#b1b6c3}.header-wrapper .header__menu-item{font-size:1.3rem;padding:1.2rem 2.85rem}.header__icon .icon{fill:#fff}.header__icon .icon path{fill:#fff}
+.header{display:flex;justify-content:space-between}.header .header-wrapper{background-color:#000}.header .header__col--nav{display:flex}.header .header__active-menu-item,.header .header__menu-item{color:#b1b6c3}.header .header__menu-item{font-size:1.3rem;padding:1.2rem 2.85rem}.header__icon .icon{fill:#fff}.header__icon .icon path{fill:#fff}
 /*# sourceMappingURL=4-components.min.css.map */
