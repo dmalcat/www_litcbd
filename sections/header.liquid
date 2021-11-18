@@ -342,7 +342,7 @@
               alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
             >
           {%- else -%}
-            <img class="header__heading-logo" src="assets/logo.svg">
+            <img class="header__heading-logo" src="assets/logo.svg" alt="">
           {%- endif -%}
         </a>
     {%- if request.page_type == 'index' -%}
