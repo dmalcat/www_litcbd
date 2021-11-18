@@ -20,11 +20,18 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "ba123b30-5202-4916-a1e0-c65a34a7fe53": {
+          "type": "text",
+          "settings": {
+            "text": "Lit you soul."
+          }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "button",
+        "ba123b30-5202-4916-a1e0-c65a34a7fe53"
       ],
       "settings": {
         "image_height": "medium",
