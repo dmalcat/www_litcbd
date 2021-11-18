@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"4-components.min.css","sourcesContent":[]}
+{"version":3,"sources":["header.scss"],"names":[],"mappings":"AAAA,sBACC,QAAS","file":"4-components.min.css","sourcesContent":[".header__heading-logo {\n\tdisplay: none; \n}"]}
