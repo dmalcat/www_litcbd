@@ -6,14 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Lit your body.",
+            "heading": "Talk about your brand",
             "heading_size": "medium"
-          }
-        },
-        "9f21f454-746d-4877-a272-6335cfcb6d4f": {
-          "type": "text",
-          "settings": {
-            "text": "Lit your soul."
           }
         },
         "button": {
@@ -30,7 +24,6 @@
       },
       "block_order": [
         "heading",
-        "9f21f454-746d-4877-a272-6335cfcb6d4f",
         "button"
       ],
       "settings": {
