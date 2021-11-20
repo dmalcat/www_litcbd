@@ -2,10 +2,11 @@
 
 .header-wrapper {
 	background-color: $black;
+
 	.header {
 		display: flex;
 		justify-content: space-between;
-		max-width: $grid-max-width;
+		max-width: 1680px;
 		width: 100%;
 		margin: 0 auto;
 
