@@ -1,0 +1,21 @@
+@import '../config';
+@import '../core/breakpoints';
+
+section {
+	margin-bottom: $section-gutter;
+	@include max480px {
+		margin-bottom: 4.5rem;
+	}
+}
+
+.wrapper {
+	max-width: $grid-max-width;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 1rem;
+	margin: 0 auto;
+}
+
+table {
+	border-collapse: collapse;
+}

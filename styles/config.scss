@@ -1,0 +1,78 @@
+// Grid size
+$grid-max-width: 1680px;
+
+
+
+// Spaces
+$section-gutter: 7.5rem;
+
+
+// Typography
+$base-font-size: 14px;
+$base-line-height: 1.75;
+
+$base-paragraph-size: 1rem;
+
+$hero-font-size: 3.35rem;
+$h1-font-size: 2rem;
+$h2-font-size: 3.15rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+
+$underlined-links: true;
+
+
+// Fonts
+//$fonts-path: '../../moracell/fonts/';
+$font-montserrat: 'Montserrat', sans-serif;
+$font-georgia: 'Georgia';
+$font-awesome: 'Font Awesome';
+
+
+// Images
+$images-path: '../../images/moracell/';
+
+
+// Colors
+$white: #FFF;
+$black: #000;
+
+$red: #DD0000;
+$green: #7BBC00;
+$gray: #8B8B8B;
+
+$darkest-brown: #3A2E27;
+$dark-brown: #473932;
+$brown: #58473E;
+$light-brown: #B39787;
+$lightest-brown: #BE7C38;
+
+$dark-blue: white;
+$blue: #0074FF;
+$light-blue: #E9F3FF;
+
+$base-text-color: $dark-blue;
+
+$menu-items-color: #B1B6C3;
+
+
+// Forms
+$form-group-gutter: 1em;
+
+$form-input-padding-tops: 1em;
+$form-input-padding-sides: 1em;
+
+$form-input-border-radius: 5px;
+$form-input-border-width: 2px;
+$form-input-border-color: rgba(0, 0, 0, .15);
+
+$form-input-text-size: 0.9em;
+
+$form-input-background-color: white;
+$form-input-text-color: $base-text-color;
+$form-input-text-font-width: 600;
+
+
+// Common radius
+$base-radius: 0.75rem;
+$button-radius: 2rem;

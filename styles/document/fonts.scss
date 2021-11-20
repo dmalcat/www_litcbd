@@ -1,0 +1,18 @@
+@import '../config';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,400;1,700&display=swap');
+
+@font-face {
+	font-family: 'Font Awesome';
+	src: url('../../fonts/font_awesome/font_awesome.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+}
+
+body {
+	font-family: $font-montserrat;
+}

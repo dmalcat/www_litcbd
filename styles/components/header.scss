@@ -1,0 +1,39 @@
+@import '../config';
+
+.header-wrapper {
+	background-color: $black;
+	.header {
+		display: flex;
+		justify-content: space-between;
+		max-width: $grid-max-width;
+		width: 100%;
+		margin: 0 auto;
+
+		.header__col--nav {
+			display: flex;
+		}
+
+		.header__inline-menu {
+			margin-right: 1.7rem;
+		}
+
+		.header__menu-item,
+		.header__active-menu-item {
+			color: $menu-items-color;
+		}
+
+		.header__menu-item {
+			font-size: 1.3rem;
+			padding: 1.2rem 2.85rem;
+		}
+	}
+}
+
+.header__icon {
+	.icon {
+		fill: $white;
+		path {
+			fill: $white;
+		}
+	}
+}
