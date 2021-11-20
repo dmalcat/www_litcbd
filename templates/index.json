@@ -51,22 +51,25 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/icon-exclusively-czech_2451f53a-42ab-4fbb-a1bb-901bf3748fba.png",
+            "title": "Exclusively Czech",
+            "text": "<p>Všechny naše produkty vznikají na české půdě. Od semínka až po květ.<\/p>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/icon-vlastni-genetika.png",
+            "title": "Vlastní genetika",
+            "text": "<p>Pěstujeme vlastní odrůdy na míru. Pro absolutní kontrolu nad výsledkem.<\/p>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/icon-spoluprace.png",
+            "title": "Spolupracujeme s ČZU",
+            "text": "<p>Zastáváme nejpřísnější kontrolu kvality. Bez chemie a dalších zbytečností.<\/p>"
           }
         }
       },
@@ -76,12 +79,12 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
+        "title": "",
+        "image_width": "third",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
