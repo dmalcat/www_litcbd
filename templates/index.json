@@ -172,13 +172,38 @@
         "mobile_layout": "collage"
       }
     },
-    "video": {
-      "type": "video",
+    "1637490775b49c3a68": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637490775c83d6055-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vždy nás fascinovalo,  jak dobré konopí umí  pomáhat tělu i mysli."
+          }
+        },
+        "1637490775c83d6055-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1637490775c83d6055-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637490775c83d6055-0",
+        "1637490775c83d6055-1",
+        "1637490775c83d6055-2"
+      ],
       "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     }
   },
@@ -188,6 +213,6 @@
     "1637426653d18c0e43",
     "featured_products",
     "collage",
-    "video"
+    "1637490775b49c3a68"
   ]
 }
