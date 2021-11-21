@@ -1,12 +1,20 @@
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
-  }
+    "settings": [
+		{
+          "type": "text",
+          "id": "subheading",
+          "default": "Section sub-heading",
+          "label": "Section sub-heading"
+        },        
+		{
+          "type": "text",
+          "id": "heading",
+          "default": "Section heading",
+          "label": "Section heading"
+        }
+	]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
