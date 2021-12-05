@@ -65,6 +65,7 @@
         {%- if article.comments_count > 0 and blog.comments_enabled? -%}
           <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
         {%- endif -%}
+        <span class="article-card__link">Celý článek</span>
       </div>
     </div>
   </a>
