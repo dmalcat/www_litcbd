@@ -1,12 +1,69 @@
+<div class="keyFeatures">
+  <div class="page-width">
+    <div class="keyFeatures__wrapper wrapper">
+      <div class="keyFeatures__row">
+        <div class="keyFeatures__row row">
+          <div class="keyFeatures__col keyFeatures__col--image">
+          	{%- if section.settings.key-feature-1-image != blank -%}
+            <img class="mImages__image" src="{{ section.settings.key-feature-1-image | img_url: '255x' }}"
+                  alt="{{ section.settings.image-1.alt | escape }}"
+                  loading="lazy"
+                >
+            {%- endif -%}
+          </div>
+          <div class="keyFeatures__col keyFeatures__col--copy"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Key features",
+    "settings": [
+		{
+          "type": "image_picker",
+          "id": "key-feature-1-image",
+          "label": "Key feature"
+        },
+		{
+          "type": "text",
+          "id": "key-feature-1",
+          "default": "Key feature",
+          "label": "Key feature"
+        },
+		{
+          "type": "text",
+          "id": "key-feature-2",
+          "default": "Key feature",
+          "label": "Key feature"
+        },
+		{
+          "type": "text",
+          "id": "key-feature-3",
+          "default": "Key feature",
+          "label": "Key feature"
+        },
+		{
+          "type": "text",
+          "id": "key-feature-4",
+          "default": "Key feature",
+          "label": "Key feature"
+        },
+		{
+          "type": "text",
+          "id": "key-feature-5",
+          "default": "Key feature",
+          "label": "Key feature"
+        },
+		{
+          "type": "text",
+          "id": "key-feature-6",
+          "default": "Key feature",
+          "label": "Key feature"
+        }
+	]
+
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
