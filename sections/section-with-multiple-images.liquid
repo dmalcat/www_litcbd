@@ -1,5 +1,6 @@
 <div class="mImages">
     <div class="page-width">
+      <div class="mImages__wrapper wrapper">
         <div class="mImages__row{% if section.settings.image_first %} mImages__row--image-first{% endif %} row">
           <div class="mImages__col mImages__col--copy">
              <span class="mImages__subheadline">{{ section.settings.subheading }}</span>
@@ -23,13 +24,14 @@
             </div>
             {%- if section.settings.image-3 != blank -%}
             <div class="mImages__imageInner">
-            <img class="mImages__image" src="{{ section.settings.image-3 | img_url: '255x' }}"
+            	<img class="mImages__image" src="{{ section.settings.image-3 | img_url: '255x' }}"
                 alt="{{ section.settings.image-3.alt | escape }}"
                 loading="lazy"
               >
             </div>
             {%- endif -%}
           </div>
+        </div>
         </div>
      </div>
 </div>
