@@ -11,7 +11,16 @@
                 >
             {%- endif -%}
           </div>
-          <div class="keyFeatures__col keyFeatures__col--copy"></div>
+          <div class="keyFeatures__col keyFeatures__col--copy">
+            <ul>
+              <li>{{ section.settings.key-feature-1 }}</li>
+              <li>{{ section.settings.key-feature-2 }}</li>
+              <li>{{ section.settings.key-feature-3 }}</li>
+              <li>{{ section.settings.key-feature-4 }}</li>
+              <li>{{ section.settings.key-feature-5 }}</li>
+              <li>{{ section.settings.key-feature-6 }}</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -63,6 +72,12 @@
           "default": "Key feature",
           "label": "Key feature"
         }
+	],
+	"presets": [
+      {
+        "name": "Key features",
+        "category": "Custom"
+      }
 	]
 
   }
