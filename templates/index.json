@@ -119,9 +119,12 @@
     "1638714623f1dc3786": {
       "type": "section-with-multiple-images",
       "settings": {
-        "subheading": "Section sub-heading",
-        "heading": "Section heading",
-        "text": "<p>Section copy<\/p>"
+        "subheading": "O nás",
+        "heading": "Vždy nás fascinovalo,  jak dobré konopí umí  pomáhat tělu i mysli.",
+        "text": "<p>Proto jsme se rozhodli dělat tak kvalitní produkt, jak jen dovedeme. Bez chemikálií,jak to umí sama příroda.<\/p>",
+        "image-1": "shopify:\/\/shop_images\/image_1.png",
+        "image-2": "shopify:\/\/shop_images\/image_3.png",
+        "image-3": "shopify:\/\/shop_images\/image_2.png"
       }
     },
     "1637490775b49c3a68": {
