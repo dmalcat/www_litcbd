@@ -43,7 +43,8 @@
         <h2 class="article-card__title" id="Article-{{ article.id }}">
           {{ article.title | escape }}
         </h2>
-        {%- if show_date -%}
+        <span class="article-card__row">
+          {%- if show_date -%}
           <span class="circle-divider caption-with-letter-spacing">
             {{- article.published_at | time_tag: format: 'date' -}}
           </span>
@@ -51,6 +52,9 @@
         {%- if show_author -%}
           <span class="caption-with-letter-spacing">{{ article.author -}}</span>
         {%- endif -%}
+          <span class="article-card__link">Celý článek</span>
+        </span>
+        
       </header>
       {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
         <p class="article-card__excerpt rte-width">
@@ -65,7 +69,6 @@
         {%- if article.comments_count > 0 and blog.comments_enabled? -%}
           <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
         {%- endif -%}
-        <span class="article-card__link">Celý článek</span>
       </div>
     </div>
   </a>
