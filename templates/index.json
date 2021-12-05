@@ -178,44 +178,17 @@
         "show_rating": false
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
+    "16387372266544d159": {
+      "type": "featured-blog",
       "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
+        "heading": "Novinky z CBD světa",
+        "blog": "news",
+        "post_limit": 4,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
       }
     }
   },
@@ -229,6 +202,6 @@
     "1638717525fdcc9cd8",
     "16387175907c131fcd",
     "featured_products",
-    "collage"
+    "16387372266544d159"
   ]
 }
