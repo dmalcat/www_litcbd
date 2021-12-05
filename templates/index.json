@@ -165,7 +165,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "Oleje",
         "collection": "all",
         "products_to_show": 6,
         "show_view_all": true,
