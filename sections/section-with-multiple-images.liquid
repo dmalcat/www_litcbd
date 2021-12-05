@@ -7,23 +7,27 @@
              <div class="mImages__text">{{ section.settings.text }}</div>
           </div>
           <div class="mImages__col mImages__col--img">
-            {%- if section.settings.image-1 != blank -%}
-              <img src="{{ section.settings.image-1 | img_url: '255x' }}"
-                alt="{{ section.settings.image-1.alt | escape }}"
-                loading="lazy"
-              >
-            {%- endif -%}
-            {%- if section.settings.image-2 != blank -%}
-              <img src="{{ section.settings.image-2 | img_url: '255x' }}"
-                alt="{{ section.settings.image-2.alt | escape }}"
-                loading="lazy"
-              >
-            {%- endif -%}
+            <div class="mImages__imageInner">
+              {%- if section.settings.image-1 != blank -%}
+                <img class="mImages__image" src="{{ section.settings.image-1 | img_url: '255x' }}"
+                  alt="{{ section.settings.image-1.alt | escape }}"
+                  loading="lazy"
+                >
+              {%- endif -%}
+              {%- if section.settings.image-2 != blank -%}
+                <img class="mImages__image" src="{{ section.settings.image-2 | img_url: '255x' }}"
+                  alt="{{ section.settings.image-2.alt | escape }}"
+                  loading="lazy"
+                >
+              {%- endif -%}
+            </div>
             {%- if section.settings.image-3 != blank -%}
-              <img src="{{ section.settings.image-3 | img_url: '255x' }}"
+            <div class="mImages__imageInner">
+            <img class="mImages__image" src="{{ section.settings.image-3 | img_url: '255x' }}"
                 alt="{{ section.settings.image-3.alt | escape }}"
                 loading="lazy"
               >
+            </div>
             {%- endif -%}
           </div>
         </div>
