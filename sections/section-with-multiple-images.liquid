@@ -4,10 +4,12 @@
         <div class="custom-text-section">
             <span class="mImages__subheadline">{{ section.settings.heading }}</span>
             <h2 class="mImages__headline">{{ section.settings.subheading }}</h2>
+            <h2 class="mImages__headline">{{ section.settings.text }}</h2>
         </div>
       </div>
       <div class="mImages__col">
-        </div>
+        
+      </div>
     </div>
 </div>
 
@@ -26,6 +28,27 @@
           "id": "heading",
           "default": "Section heading",
           "label": "Section heading"
+        },
+		{
+          "type": "richtext",
+          "id": "text",
+		  "default": "<p>Section copy</p>",
+          "label": "Section copy"
+        },
+		{
+		  "type": "image_picker",
+		  "id": "image-first",
+      	  "label": "Section image 1"
+        },
+		{
+		  "type": "image_picker",
+		  "id": "image-second",
+      	  "label": "Section image 2"
+        },
+		{
+		  "type": "image_picker",
+		  "id": "image-third",
+      	  "label": "Section image 3"
         }
 	],
 	"presets": [
