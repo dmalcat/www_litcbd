@@ -89,31 +89,16 @@
         "swipe_on_mobile": false
       }
     },
-    "1637426653d18c0e43": {
-      "type": "image-with-text",
-      "blocks": {
-        "1637426653c7d7be46-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "S čím vám CBD pomůže"
-          }
-        },
-        "1637426653c7d7be46-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Úleva od stresu<\/p><p>Úleva od bolesti<\/p><p>Vyšší soustředění<\/p><p>Svalová regenerace<\/p><p>Bolestivá menstruace<\/p><p>Lepší spánek<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1637426653c7d7be46-0",
-        "1637426653c7d7be46-1"
-      ],
+    "1638735141ca197ce2": {
+      "type": "keyFeatures",
       "settings": {
-        "image": "shopify:\/\/shop_images\/slideshow-placeholder.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
+        "key-feature-1-image": "shopify:\/\/shop_images\/slideshow-placeholder.png",
+        "key-feature-1": "Úleva od stresu",
+        "key-feature-2": "Úleva od bolesti",
+        "key-feature-3": "Vyšší soustředění",
+        "key-feature-4": "Svalová regenerace",
+        "key-feature-5": "Bolestivá menstruace",
+        "key-feature-6": "Lepší spánek"
       }
     },
     "1638714623f1dc3786": {
@@ -270,7 +255,7 @@
   "order": [
     "image_banner",
     "multi_column",
-    "1637426653d18c0e43",
+    "1638735141ca197ce2",
     "1638714623f1dc3786",
     "16387166999076beaf",
     "163871703234ffbf84",
