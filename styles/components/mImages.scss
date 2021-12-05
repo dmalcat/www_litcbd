@@ -3,7 +3,7 @@
 .mImages {
 	margin-bottom: 20rem;
 	.mImages__row {
-		justify-content: center;
+		justify-content: space-between;
 	}
 
 	.mImages__row--image-first {
@@ -12,12 +12,8 @@
 		}
 	}
 
-	.mImages__col {
-		margin: 0 10vw;
-	}
-
 	.mImages__col--copy {
-		max-width: 440px;
+		max-width: 475px;
 		width: 100%;
 	}
 
@@ -25,9 +21,18 @@
 		display: flex;
 		flex-flow: row wrap;
 		align-items: center;
-		max-width: 540px;
-		width: 100%;
 		gap: 20px;
+	}
+
+	.mImages__imageInner {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.mImages__image {
+		max-width: 255px;
+		width: 100%;
 	}
 
 	.mImages__subheadline {
@@ -53,10 +58,5 @@
 		font-size: 24px;
 		line-height: 1.6;
 		color: #8A90A3;
-	}
-
-	.mImages__image {
-		max-width: 255px;
-		width: 100%;
 	}
 }

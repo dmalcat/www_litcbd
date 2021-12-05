@@ -1,0 +1,24 @@
+@import '../config';
+
+.collection {
+	.title {
+		font-weight: 800;
+		font-size: 64px;
+		line-height: 1.3;
+		color: $white;
+		text-transform: none;
+	}
+
+	.title-wrapper-with-link {
+		margin-bottom: 40px;
+	}
+
+	.grid__item {
+		max-width: 370px;
+		width: 100%;
+	}
+
+	.card-information__text {
+
+	}
+}
