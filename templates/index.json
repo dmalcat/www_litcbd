@@ -116,6 +116,14 @@
         "layout": "image_first"
       }
     },
+    "1638714623f1dc3786": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Section sub-heading",
+        "heading": "Section heading",
+        "text": "<p>Section copy<\/p>"
+      }
+    },
     "1637490775b49c3a68": {
       "type": "image-with-text",
       "blocks": {
@@ -211,6 +219,7 @@
     "image_banner",
     "multi_column",
     "1637426653d18c0e43",
+    "1638714623f1dc3786",
     "1637490775b49c3a68",
     "featured_products",
     "collage"
