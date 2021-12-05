@@ -1,12 +1,6 @@
 <div class="mImages">
     <div class="page-width">
-      
-        {%- if section.settings.image_first == nil -%}
-      	<div class="mImages__row mImages__row--image-first row">
-        {%- endif -%}
-        {%- if section.settings.image_first != nil -%}
-        <div class="mImages__row row">
-        {%- endif -%}
+        <div class="mImages__row {% if section.settings.image_first %}mImages__row--image-first{% endif %} row">
           <div class="mImages__col mImages__col--copy">
              <span class="mImages__subheadline">{{ section.settings.subheading }}</span>
              <h2 class="mImages__headline">{{ section.settings.heading }}</h2>
