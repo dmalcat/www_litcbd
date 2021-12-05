@@ -1,10 +1,10 @@
 <div class="mImages">
     <div class="page-width">
       
-        {%- if section.settings.image_first != nil -%}
+        {%- if section.settings.image_first == nil -%}
       	<div class="mImages__row mImages__row--image-first row">
         {%- endif -%}
-        {%- if section.settings.image_first == nil -%}
+        {%- if section.settings.image_first != nil -%}
         <div class="mImages__row row">
         {%- endif -%}
           <div class="mImages__col mImages__col--copy">
