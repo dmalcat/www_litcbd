@@ -14,6 +14,18 @@
             loading="lazy"
           >
         {%- endif -%}
+        {%- if section.settings.image != blank -%}
+          <img src="{{ section.settings.image-2 | img_url: '255x' }}"
+            alt="{{ section.settings.image-2.alt | escape }}"
+            loading="lazy"
+          >
+        {%- endif -%}
+        {%- if section.settings.image != blank -%}
+          <img src="{{ section.settings.image-3 | img_url: '255x' }}"
+            alt="{{ section.settings.image-3.alt | escape }}"
+            loading="lazy"
+          >
+        {%- endif -%}
       </div>
     </div>
 </div>
