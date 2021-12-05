@@ -1,7 +1,11 @@
 <div class="mImages">
     <div class="page-width">
       
+        {%- if block.settings.image_first -%}
+      	<div class="mImages__row mImages__row--image-first row">
+        {% else %}
         <div class="mImages__row row">
+        {%- endif -%}
           <div class="mImages__col mImages__col--copy">
              <span class="mImages__subheadline">{{ section.settings.subheading }}</span>
              <h2 class="mImages__headline">{{ section.settings.heading }}</h2>
@@ -67,6 +71,12 @@
 		  "type": "image_picker",
 		  "id": "image-3",
       	  "label": "Section image 3"
+        },
+		{
+          "type": "checkbox",
+          "id": "image_first",
+          "default": false,
+          "label": "Image first?"
         }
 	],
 	"presets": [
