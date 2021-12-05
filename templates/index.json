@@ -164,6 +164,18 @@
         "image-3": "shopify:\/\/shop_images\/c8449ca8bbe1314208575afcf163023d.png"
       }
     },
+    "16387175907c131fcd": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Vracíme zpět",
+        "heading": "Dobrý byznys je podle nás ten, který má pozitivní dopad na okolní svět.",
+        "text": "<p>Chceme se podělit o svůj úspěch a radost, kterou nám konopí přináší. Proto pravidelně přispíváme na________<\/p>",
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/image_1.png",
+        "image-2": "shopify:\/\/shop_images\/image_3.png",
+        "image-3": "shopify:\/\/shop_images\/image_2.png"
+      }
+    },
     "1637490775b49c3a68": {
       "type": "image-with-text",
       "blocks": {
@@ -263,6 +275,7 @@
     "16387166999076beaf",
     "163871703234ffbf84",
     "1638717525fdcc9cd8",
+    "16387175907c131fcd",
     "1637490775b49c3a68",
     "featured_products",
     "collage"
