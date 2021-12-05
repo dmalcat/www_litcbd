@@ -11,6 +11,7 @@
           {%- endif -%}
         </div>
         <div class="keyFeatures__col keyFeatures__col--copy">
+          <span class="keyFeatures__subheadline">{{ section.settings.key-feature-headline }}</span>
           <ul class="keyFeatures__list">
             <li>{{ section.settings.key-feature-1 }}</li>
             <li>{{ section.settings.key-feature-2 }}</li>
@@ -32,6 +33,12 @@
 		{
           "type": "image_picker",
           "id": "key-feature-1-image",
+          "label": "Key feature"
+        },
+		{
+          "type": "text",
+          "id": "key-feature-headline",
+          "default": "Headline",
           "label": "Key feature"
         },
 		{
