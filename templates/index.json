@@ -89,31 +89,16 @@
         "swipe_on_mobile": false
       }
     },
-    "1637426653d18c0e43": {
-      "type": "image-with-text",
-      "blocks": {
-        "1637426653c7d7be46-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "S čím vám CBD pomůže"
-          }
-        },
-        "1637426653c7d7be46-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Úleva od stresu<\/p><p>Úleva od bolesti<\/p><p>Vyšší soustředění<\/p><p>Svalová regenerace<\/p><p>Bolestivá menstruace<\/p><p>Lepší spánek<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1637426653c7d7be46-0",
-        "1637426653c7d7be46-1"
-      ],
+    "1638735141ca197ce2": {
+      "type": "keyFeatures",
       "settings": {
-        "image": "shopify:\/\/shop_images\/slideshow-placeholder.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
+        "key-feature-1-image": "shopify:\/\/shop_images\/slideshow-placeholder.png",
+        "key-feature-1": "Úleva od stresu",
+        "key-feature-2": "Úleva od bolesti",
+        "key-feature-3": "Vyšší soustředění",
+        "key-feature-4": "Svalová regenerace",
+        "key-feature-5": "Bolestivá menstruace",
+        "key-feature-6": "Lepší spánek"
       }
     },
     "1638714623f1dc3786": {
@@ -122,10 +107,10 @@
         "subheading": "O nás",
         "heading": "Vždy nás fascinovalo,  jak dobré konopí umí  pomáhat tělu i mysli.",
         "text": "<p>Proto jsme se rozhodli dělat tak kvalitní produkt, jak jen dovedeme. Bez chemikálií, jak to umí sama příroda.<\/p>",
+        "image_first": false,
         "image-1": "shopify:\/\/shop_images\/image_1.png",
         "image-2": "shopify:\/\/shop_images\/image_3.png",
-        "image-3": "shopify:\/\/shop_images\/image_2.png",
-        "image_first": false
+        "image-3": "shopify:\/\/shop_images\/image_2.png"
       }
     },
     "16387166999076beaf": {
@@ -134,10 +119,46 @@
         "subheading": "Náš přístup",
         "heading": "U nás si nekoupíte jen květy nebo olej, ale komplexní proces.",
         "text": "<p>Od řízků až po curing, péči o naše konopí si hlídáme ve všech fázích jeho růstu. Cesta rostlin začíná v laboratořích ČZU, pokračuje přes naši pěstírnu o rozloze 1853 m2, a končí ve skle, aby uchovalo to nejlepší.<\/p>",
+        "image_first": true,
         "image-1": "shopify:\/\/shop_images\/f2ee55b5ea3c38705d5b6cdce3d7c38f.png",
         "image-2": "shopify:\/\/shop_images\/f2ee55b5ea3c38705d5b6cdce3d7c38f-1.png",
-        "image-3": "shopify:\/\/shop_images\/c8449ca8bbe1314208575afcf163023d.png",
-        "image_first": true
+        "image-3": "shopify:\/\/shop_images\/c8449ca8bbe1314208575afcf163023d.png"
+      }
+    },
+    "163871703234ffbf84": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Technologie a inovace",
+        "heading": "Posouváme standardy tuzemské growerské komunity",
+        "text": "<p>Nenásledujeme trendy. Vytváříme je. Česká republika podle nás totiž patří na konopnou mapu světa a rozhodně má šanci konkurovat zahraničním velikánům.<\/p>",
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/image_1.png",
+        "image-2": "shopify:\/\/shop_images\/image_3.png",
+        "image-3": "shopify:\/\/shop_images\/image_2.png"
+      }
+    },
+    "1638717525fdcc9cd8": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Pro vaše zdraví",
+        "heading": "Inspirujte se k péči o tělo i duši.",
+        "text": "<p>Soustředíme se na wellbeing těla i ducha. Náš produkt děláme s ohledem na vaše zdraví a jeho rozmanité aspekty.<\/p>",
+        "image_first": true,
+        "image-1": "shopify:\/\/shop_images\/f2ee55b5ea3c38705d5b6cdce3d7c38f.png",
+        "image-2": "shopify:\/\/shop_images\/f2ee55b5ea3c38705d5b6cdce3d7c38f-1.png",
+        "image-3": "shopify:\/\/shop_images\/c8449ca8bbe1314208575afcf163023d.png"
+      }
+    },
+    "16387175907c131fcd": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Vracíme zpět",
+        "heading": "Dobrý byznys je podle nás ten, který má pozitivní dopad na okolní svět.",
+        "text": "<p>Chceme se podělit o svůj úspěch a radost, kterou nám konopí přináší. Proto pravidelně přispíváme na________<\/p>",
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/image_1.png",
+        "image-2": "shopify:\/\/shop_images\/image_3.png",
+        "image-3": "shopify:\/\/shop_images\/image_2.png"
       }
     },
     "1637490775b49c3a68": {
@@ -234,9 +255,12 @@
   "order": [
     "image_banner",
     "multi_column",
-    "1637426653d18c0e43",
+    "1638735141ca197ce2",
     "1638714623f1dc3786",
     "16387166999076beaf",
+    "163871703234ffbf84",
+    "1638717525fdcc9cd8",
+    "16387175907c131fcd",
     "1637490775b49c3a68",
     "featured_products",
     "collage"
