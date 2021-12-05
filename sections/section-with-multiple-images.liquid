@@ -3,7 +3,8 @@
       
         {%- if section.settings.image_first != nil -%}
       	<div class="mImages__row mImages__row--image-first row">
-        {% else %}
+        {%- endif -%}
+        {%- if section.settings.image_first == nil -%}
         <div class="mImages__row row">
         {%- endif -%}
           <div class="mImages__col mImages__col--copy">
