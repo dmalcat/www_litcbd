@@ -128,6 +128,18 @@
         "image_first": true
       }
     },
+    "16387166999076beaf": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Náš přístup",
+        "heading": "U nás si nekoupíte jen květy nebo olej, ale komplexní proces.",
+        "text": "<p>Od řízků až po curing, péči o naše konopí si hlídáme ve všech fázích jeho růstu. Cesta rostlin začíná v laboratořích ČZU, pokračuje přes naši pěstírnu o rozloze 1853 m2, a končí ve skle, aby uchovalo to nejlepší.<\/p>",
+        "image-1": "shopify:\/\/shop_images\/f2ee55b5ea3c38705d5b6cdce3d7c38f.png",
+        "image-2": "shopify:\/\/shop_images\/f2ee55b5ea3c38705d5b6cdce3d7c38f-1.png",
+        "image-3": "shopify:\/\/shop_images\/c8449ca8bbe1314208575afcf163023d.png",
+        "image_first": false
+      }
+    },
     "1637490775b49c3a68": {
       "type": "image-with-text",
       "blocks": {
@@ -224,6 +236,7 @@
     "multi_column",
     "1637426653d18c0e43",
     "1638714623f1dc3786",
+    "16387166999076beaf",
     "1637490775b49c3a68",
     "featured_products",
     "collage"
