@@ -1,11 +1,13 @@
-<div class="custom-text-section">
-  <h2> {{ section.settings.subheading }} </h2>
-  <div>{{ section.settings.heading }}</div>
+<div class="mImages">
+	<div class="custom-text-section">
+		<span class="mImages__subheadline">{{ section.settings.heading }}</span>
+    	<h2 class="mImages__headline">{{ section.settings.subheading }}</h2>
+	</div>
 </div>
 
 {% schema %}
   {
-    "name": "Section name",
+    "name": "Multiple images section",
     "settings": [
 		{
           "type": "text",
@@ -22,7 +24,7 @@
 	],
 	"presets": [
       {
-        "name": "Multiple images text section",
+        "name": "Multiple images section",
         "category": "Custom"
       }
 	]
