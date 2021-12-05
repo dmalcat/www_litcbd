@@ -125,7 +125,7 @@
         "image-1": "shopify:\/\/shop_images\/image_1.png",
         "image-2": "shopify:\/\/shop_images\/image_3.png",
         "image-3": "shopify:\/\/shop_images\/image_2.png",
-        "image_first": true
+        "image_first": false
       }
     },
     "16387166999076beaf": {
@@ -137,7 +137,7 @@
         "image-1": "shopify:\/\/shop_images\/f2ee55b5ea3c38705d5b6cdce3d7c38f.png",
         "image-2": "shopify:\/\/shop_images\/f2ee55b5ea3c38705d5b6cdce3d7c38f-1.png",
         "image-3": "shopify:\/\/shop_images\/c8449ca8bbe1314208575afcf163023d.png",
-        "image_first": false
+        "image_first": true
       }
     },
     "1637490775b49c3a68": {
