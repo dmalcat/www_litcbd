@@ -49,25 +49,25 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-            }
-          },
           "4e017e66-417d-47c8-901f-99e0d5374043": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
             }
+          },
+          "52336143-4f6a-4917-bfd8-5a81e91e1863": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "socials"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "4e017e66-417d-47c8-901f-99e0d5374043"
+          "4e017e66-417d-47c8-901f-99e0d5374043",
+          "52336143-4f6a-4917-bfd8-5a81e91e1863"
         ],
         "settings": {
           "color_scheme": "background-1",
