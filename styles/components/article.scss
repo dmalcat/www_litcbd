@@ -33,9 +33,24 @@
 	}
 
 	.article-card__link {
+		position: relative;
 		font-weight: 800;
 		font-size: 21px;
 		line-height: 130%;
+		margin-right: 0 !important;
+		padding-right: 60px;
+		&:after {
+			content: '';
+			position: absolute;
+			display: block;
+			top: 50%;
+			right: 0;
+			transform: translateY(-50%);
+			width: 35px;
+			height: 10px;
+			background-image: url("icon-arrow.svg");
+			background-size: cover;
+		}
 	}
 
 	.circle-divider {

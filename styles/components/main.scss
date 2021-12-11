@@ -1,12 +1,18 @@
 @import '../config';
 
+// Layout components
 @import 'header.scss';
-@import 'cover.scss';
+@import 'footer.scss';
+
+// Reusable components
 @import 'buttons.scss';
 @import 'multicolumns.scss';
 @import 'mImages.scss';
-@import 'keyFeatures.scss';
 @import 'collection.scss';
 @import 'card.scss';
 @import 'blog.scss';
 @import 'article.scss';
+
+// UI components
+@import 'cover.scss';
+@import 'keyFeatures.scss';
