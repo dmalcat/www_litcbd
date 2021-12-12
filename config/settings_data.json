@@ -3,13 +3,14 @@
     "colors_solid_button_labels": "#FFFFFF",
     "colors_accent_1": "#121212",
     "colors_accent_2": "#334FB4",
-    "colors_text": "#121212",
+    "colors_text": "#ffffff",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "page_width": "1200",
+    "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
