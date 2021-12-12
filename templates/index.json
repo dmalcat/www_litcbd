@@ -20,10 +20,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Oleje",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify:\/\/collections\/oleje",
             "button_style_secondary_1": false,
             "button_label_2": "Květy",
-            "button_link_2": "shopify:\/\/collections\/all",
+            "button_link_2": "shopify:\/\/collections\/kvety",
             "button_style_secondary_2": false
           }
         }
@@ -172,7 +172,7 @@
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "show_secondary_image": true,
-        "add_image_padding": false,
+        "add_image_padding": true,
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
