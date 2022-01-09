@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Lit your body. Lit your soul.",
+            "heading": "<span data-aos=\"fade-right\" data-aos-offset=\"300\" data-aos-easing=\"ease-in-out\">Lit your body.<\/span> <span>Lit your soul.<\/span>",
             "heading_size": "medium"
           }
         },

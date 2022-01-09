@@ -1,4 +1,9 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script>
+    AOS.init();
+  </script>
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
@@ -107,8 +112,6 @@
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script src="{{ 'hero-animation.js' | asset_url }}"></script>
 
 {% schema %}
 {
