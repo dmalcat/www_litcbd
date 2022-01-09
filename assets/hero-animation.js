@@ -11,4 +11,3 @@ anime.timeline({loop: false})
 		duration: 300,
 		delay: (el, i) => 100 * (i+1)
 	});
-});
