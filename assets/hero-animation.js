@@ -3,17 +3,17 @@ var textWrapper = document.querySelector('.hero-animation');
 
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
+anime.timeline({loop: false})
 	.add({
 		targets: '.hero-animation .letter',
 		opacity: [0,1],
 		easing: "easeInOutQuad",
-		duration: 1500,
+		duration: 300,
 		delay: (el, i) => 150 * (i+1)
 	}).add({
 	targets: '.hero-animation',
 	opacity: 0,
-	duration: 1000,
+	duration: 300,
 	easing: "easeOutExpo",
 	delay: 1000
 });
