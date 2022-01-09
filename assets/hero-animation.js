@@ -9,5 +9,5 @@ anime.timeline({loop: false})
 		opacity: [0,1],
 		easing: "easeInOutQuad",
 		duration: 1000,
-		delay: (el, i) => 150 * (i+1)
+		delay: (el, i) => 10 * (i+1)
 	});
