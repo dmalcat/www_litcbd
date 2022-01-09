@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Lit your body. Lit your soul.",
+            "heading": "<span>Lit your body<\/span>. <span>Lit your soul<\/span>.",
             "heading_size": "medium"
           }
         },
