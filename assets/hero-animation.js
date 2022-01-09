@@ -10,10 +10,5 @@ anime.timeline({loop: false})
 		easing: "easeInOutQuad",
 		duration: 300,
 		delay: (el, i) => 100 * (i+1)
-	}).add({
-	targets: '.hero-animation',
-	opacity: 0,
-	duration: 300,
-	easing: "easeOutExpo",
-	delay: 1000
+	})
 });
