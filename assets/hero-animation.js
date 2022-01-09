@@ -8,6 +8,6 @@ anime.timeline({loop: false})
 		targets: '.hero-animation .letter',
 		opacity: [0,1],
 		easing: "easeInOutQuad",
-		duration: 300,
+		duration: 1000,
 		delay: (el, i) => 150 * (i+1)
 	});
