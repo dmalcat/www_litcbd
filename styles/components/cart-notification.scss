@@ -1,0 +1,10 @@
+@import '../config';
+
+.cart-notification {
+	background-color: $black !important;
+	border-width: 1px !important;
+	.button {
+		max-width: 100%;
+	}
+}
+

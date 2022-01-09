@@ -113,7 +113,7 @@ export function uiStyles() {
 function watchFiles() {
 	gulp.watch(paths.styles.vendor.src, vendorStyles);
 	gulp.watch(paths.styles.document.src, documentStyles);
-	gulp.watch(paths.styles.core.src, gulp.series(coreStyles, documentStyles, componentStyles, uiStyles));
+	gulp.watch(paths.styles.core.src, coreStyles);
 	gulp.watch(paths.styles.components.src, componentStyles);
 	gulp.watch(paths.styles.ui.src, uiStyles);
 	themekit.command('watch', {

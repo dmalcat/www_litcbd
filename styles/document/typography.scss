@@ -5,7 +5,6 @@
 html,
 body {
 	font-size: $base-font-size;
-	font-family: $font-georgia;
 	line-height: $base-line-height;
 	color: $base-text-color;
 	background-color: $black;
@@ -13,7 +12,7 @@ body {
 
 h1, h2, h3, h4, h5 {
 	margin-bottom: 1em;
-	font-family: $font-montserrat;
+	font-family: $jakarta !important;
 }
 
 h1 {
@@ -85,7 +84,6 @@ ol, ul {
 	}
 
 	li {
-		font-family: $font-montserrat;
 		margin-bottom: 0.75rem;
 		font-weight: 600;
 	}
@@ -135,8 +133,15 @@ a {
 	}
 }
 
+.link {
+	color: $white;
+}
+
+.full-unstyled-link {
+	color: $white;
+}
+
 .perex {
-	font-family: $font-montserrat;
 	font-size: 1.25rem;
 	font-weight: 600;
 	@include max1024px {
@@ -149,10 +154,13 @@ a {
 }
 
 .title {
-	font-family: $font-montserrat;
 	font-size: 0.9rem;
 	color: $blue;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
+}
+
+.rte a {
+	color: $white !important;
 }

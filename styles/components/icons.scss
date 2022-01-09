@@ -1,0 +1,8 @@
+@import '../config';
+
+.icon-cart {
+	stroke: $white;
+	path {
+		transition: all 300ms ease-in-out;
+	}
+}

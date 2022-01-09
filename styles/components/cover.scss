@@ -11,6 +11,7 @@
 	}
 
 	.banner__media {
+		background-color: $black;
 		img {
 			max-width: 860px !important;
 			right: 0;
@@ -20,11 +21,12 @@
 
 	.banner__heading {
 		text-align: left;
-		max-width: 940px;
+		max-width: 1040px;
 		color: $white;
 		font-size: 10.7rem;
 		line-height: 11.25rem;
-		font-weight: bold;
+		font-family: $jakarta;
+		font-weight: 800;
 	}
 
 	.banner__box {

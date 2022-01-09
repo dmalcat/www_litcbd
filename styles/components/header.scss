@@ -21,20 +21,30 @@
 		.header__menu-item,
 		.header__active-menu-item {
 			color: $menu-items-color;
+			text-decoration: none;
 		}
 
 		.header__menu-item {
 			font-size: 1.3rem;
 			padding: 1.2rem 2.85rem;
 		}
+
+		.header__active-menu-item {
+			color: $white;
+		}
 	}
+}
+.header-wrapper--border-bottom {
+	border-bottom: 0;
 }
 
 .header__icon {
-	.icon {
+	.icon-search {
 		fill: $white;
-		path {
-			fill: $white;
-		}
+	}
+
+	.icon-cart {
+		width: 28px;
+		height: 28px;
 	}
 }
