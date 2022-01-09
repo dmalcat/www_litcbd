@@ -7,7 +7,7 @@ anime.timeline({loop: false})
 	.add({
 		targets: '.hero-animation .letter',
 		opacity: [0,1],
-		easing: "easeInOut",
+		easing: "easeInOutQuad",
 		duration: 300,
 		delay: (el, i) => 150 * (i+1)
 	});
