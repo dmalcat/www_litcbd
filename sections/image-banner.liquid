@@ -37,6 +37,8 @@
 <div id="Banner-{{ section.id }}" class="banner banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
   <div class="banner__wrapper wrapper">
     <div class="banner__video">
+      <div class="banner__content banner__content--{{ section.settings.desktop_text_box_position }} page-width">
+        <div class="banner__box color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
@@ -45,6 +47,8 @@
           </h2>
           {% endcase %}
         {% endfor %}
+        </div>
+      </div>
       <div class="banner__media banner__media--video">
         <video class="banner__video" loop autoplay muted>
           <source src="https://cdn.shopify.com/s/files/1/0412/9495/4654/files/fin.mp4?v=1642347082" type="video/mp4">
