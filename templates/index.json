@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<span data-aos=\"fade-right\" data-aos-offset=\"300\" data-aos-easing=\"ease-in-out\">Lit your body.<\/span>",
+            "heading": "Lit your body.",
             "heading_size": "medium"
           }
         },
