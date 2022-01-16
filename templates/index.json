@@ -15,23 +15,11 @@
           "settings": {
             "text": "Uvolněte své tělo i mysl s prvotřídními CBD produkty bez kompromisů. Jsme nároční, protože konopí si péči zaslouží. Stejně jako vy."
           }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Oleje",
-            "button_link_1": "shopify:\/\/collections\/oleje",
-            "button_style_secondary_1": false,
-            "button_label_2": "Květy",
-            "button_link_2": "shopify:\/\/collections\/kvety",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading",
-        "ba123b30-5202-4916-a1e0-c65a34a7fe53",
-        "button"
+        "ba123b30-5202-4916-a1e0-c65a34a7fe53"
       ],
       "settings": {
         "image_height": "medium",
