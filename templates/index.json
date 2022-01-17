@@ -32,15 +32,6 @@
         "show_text_below": true
       }
     },
-    "16424443978efd783f": {
-      "type": "buttons-column",
-      "settings": {
-        "subheading": "Section sub-heading",
-        "heading": "Section heading",
-        "text": "<p>Section copy<\/p>",
-        "image_first": false
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -180,7 +171,6 @@
   },
   "order": [
     "image_banner",
-    "16424443978efd783f",
     "multi_column",
     "1638735141ca197ce2",
     "1638714623f1dc3786",
