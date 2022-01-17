@@ -3,7 +3,12 @@ $(document).ready(function(){
 	var prodDescTrigger = $('.product__info-container .product__description-trigger');
 
 	$(prodDescTrigger).click(function () {
-		$(prodDesc).toggleClass('product__description--open');
+		if (prodDesc.hasClass('product__description--open')) {
+			console.log('do');
+		} else {
+			console.log('dont');
+		}
+
 	});
 	//$(prodDesc).css('height', '100px');
 });
