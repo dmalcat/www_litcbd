@@ -35,6 +35,10 @@
     "16424443978efd783f": {
       "type": "buttons-column",
       "settings": {
+        "subheading": "Section sub-heading",
+        "heading": "Section heading",
+        "text": "<p>Section copy<\/p>",
+        "image_first": false
       }
     },
     "multi_column": {
@@ -43,7 +47,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-exclusively-czech_2451f53a-42ab-4fbb-a1bb-901bf3748fba.png",
+            "image": "shopify:\/\/shop_images\/Symbol-1.png",
             "title": "Exclusively Czech",
             "text": "<p>Všechny naše produkty vznikají na české půdě. Od semínka až po květ.<\/p>"
           }
@@ -51,7 +55,7 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-vlastni-genetika.png",
+            "image": "shopify:\/\/shop_images\/Symbol-2.png",
             "title": "Vlastní genetika",
             "text": "<p>Pěstujeme vlastní odrůdy na míru. Pro absolutní kontrolu nad výsledkem.<\/p>"
           }
@@ -59,7 +63,7 @@
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-spoluprace.png",
+            "image": "shopify:\/\/shop_images\/Symbol-3.png",
             "title": "Spolupracujeme s ČZU",
             "text": "<p>Zastáváme nejpřísnější kontrolu kvality. Bez chemie a dalších zbytečností.<\/p>"
           }
