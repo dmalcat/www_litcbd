@@ -5,8 +5,10 @@ $(document).ready(function(){
 	$(prodDescTrigger).click(function () {
 		if (prodDesc.hasClass('product__description--open')) {
 			$(prodDesc).removeClass('product__description--open');
+			$(prodDescTrigger).text('Více');
 		} else {
 			$(prodDesc).addClass('product__description--open');
+			$(prodDescTrigger).text('Méně');
 		}
 
 	});
