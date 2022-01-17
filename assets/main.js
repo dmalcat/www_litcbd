@@ -1,3 +1,4 @@
 $(document).ready(function(){
-	var prodDesc = $()
+	var prodDesc = $('.product__info-container .product__description');
+	console.log(prodDesc);
 });
