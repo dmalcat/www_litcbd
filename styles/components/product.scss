@@ -16,16 +16,32 @@
 		line-height: 1.3;
 		color: $white;
 		margin-bottom: 18px;
+		font-weight: 900;
 	}
 
 	.product__info-container {
 		.product__description {
-			margin-bottom: 64px;
-			p {
+			height: 80px;
+			overflow: hidden;
+			margin-bottom: 0;
+			transition: all 300ms ease-in-out;
+			* {
 				font-size: 24px;
 				line-height: 160%;
 				color: #8A90A3;
 			}
+		}
+
+		.product__description--open {
+			height: 100%;
+		}
+
+		.product__description-trigger {
+			display: inline-block;
+			cursor: pointer;
+			margin-top: 0;
+			margin-bottom: 64px;
+			font-size: 20px;
 		}
 	}
 
@@ -74,6 +90,15 @@
 			display: flex;
 			align-items: center;
 		}
+	}
+
+	.product__media-icon {
+		display: none !important;
+	}
+
+	.share-button {
+		display: none;
+		// ToDo: změnit
 	}
 }
 

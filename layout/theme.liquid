@@ -29,8 +29,12 @@
 
     {% render 'meta-tags' %}
 
+    <script src="{{ 'jquery-3.6.0.min.js' | asset_url }}"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    {{ content_for_header }}  {{ shop.metafields.fontify.stylesheets }}
+    <script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
+
+    {{ content_for_header }}
+ {{ shop.metafields.fontify.stylesheets }}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
