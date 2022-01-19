@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+.banner--homepage {
+  flex-direction: unset;
+}
+
 @media screen and (max-width: 749px) {
   .banner--small.banner--mobile-bottom:not(.banner--adapt) > .banner__media,
   .banner--small.banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt) > .banner__media {
