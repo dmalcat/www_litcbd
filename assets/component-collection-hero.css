@@ -65,10 +65,6 @@
   margin: 0;
 }
 
-.collection-hero--with-image .collection-hero__text-wrapper {
-  padding: 5rem 0 4rem;
-}
-
 @media screen and (max-width: 749px) {
   .collection-hero__image-container {
     height: 20rem;
