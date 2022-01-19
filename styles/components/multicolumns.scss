@@ -1,0 +1,46 @@
+@import '../config';
+
+.multicolumn {
+	margin-bottom: 15rem !important;
+}
+
+.multicolumn-list {
+	@media screen and (max-width: 1360px) {
+		flex-flow: row wrap;
+	}
+
+	.multicolumn-card {
+		display: flex;
+		.multicolumn-card__info {
+			padding: 1rem 0 !important;
+		}
+
+		.multicolumn-card__copy {
+			max-width: 290px;
+			width: 100%;
+			p {
+				font-size: 20px;
+				font-weight: 400;
+				color: #81869D;
+			}
+		}
+	}
+
+	.multicolumn-list__item {
+		@media screen and (max-width: 1360px) {
+			width: auto;
+		}
+	}
+
+	h3 {
+		font-size: 26px;
+		font-weight: 900;
+		color: $white;
+	}
+
+	.multicolumn-card__image-wrapper {
+		max-width: 64px;
+		margin-left: 0 !important;
+		margin-right: 1rem !important;
+	}
+}

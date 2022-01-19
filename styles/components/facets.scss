@@ -1,0 +1,25 @@
+@import '../config';
+
+.facets {
+	.facets__header {
+		background-color: $black !important;
+	}
+
+	.facets__display {
+		background-color: $black !important;
+	}
+
+	.facets__price .field-currency {
+		font-size: 2rem;
+	}
+}
+
+.facet-checkbox {
+	> svg {
+		background-color: $black !important;
+	}
+}
+
+#main-collection-filters {
+	display: none;
+}

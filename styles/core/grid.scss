@@ -1,0 +1,42 @@
+.row {
+	display: flex;
+}
+
+.row--center {
+	justify-content: center;
+}
+
+.row--buttons {
+	justify-content: center;
+	.button {
+		margin: 0 1rem;
+	}
+}
+
+.row--vertical-center {
+	align-items: center;
+}
+
+.row--sb {
+	justify-content: space-between;
+}
+
+@mixin make-col($number-of-cols, $offset: 1rem) {
+	@if ($number-of-cols == auto) {
+		width: auto;
+	} @elseif ($offset == 0) {
+		width: calc((100%/#{$number-of-cols}));
+	} @else {
+		width: calc((100%/#{$number-of-cols}) - #{$offset});
+		margin-left: $offset/2;
+		margin-right: $offset/2;
+	}
+}
+
+@for $i from 1 through 10 {
+	.row--#{$i}c {
+		.col {
+			@include make-col(#{$i});
+		}
+	}
+}

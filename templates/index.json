@@ -6,25 +6,20 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Lit your body.",
             "heading_size": "medium"
           }
         },
-        "button": {
-          "type": "buttons",
+        "ba123b30-5202-4916-a1e0-c65a34a7fe53": {
+          "type": "text",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "Uvolněte své tělo i mysl s prvotřídními CBD produkty bez kompromisů. <br> Jsme nároční, protože konopí si péči zaslouží. <br> <strong>Stejně jako vy.<\/strong>"
           }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "ba123b30-5202-4916-a1e0-c65a34a7fe53"
       ],
       "settings": {
         "image_height": "medium",
@@ -37,128 +32,31 @@
         "show_text_below": true
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/Symbol-1.png",
+            "title": "Exclusively Czech",
+            "text": "<p>Všechny naše produkty vznikají na české půdě. Od semínka až po květ.<\/p>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/Symbol-2.png",
+            "title": "Vlastní genetika",
+            "text": "<p>Pěstujeme vlastní odrůdy na míru. Pro absolutní kontrolu nad výsledkem.<\/p>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/Symbol-3.png",
+            "title": "Spolupracujeme s ČZU",
+            "text": "<p>Zastáváme nejpřísnější kontrolu kvality. Bez chemie a dalších zbytečností.<\/p>"
           }
         }
       },
@@ -168,23 +66,119 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
+        "title": "",
+        "image_width": "third",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
+      }
+    },
+    "1638735141ca197ce2": {
+      "type": "keyFeatures",
+      "settings": {
+        "key-feature-1-image": "shopify:\/\/shop_images\/slideshow-placeholder.png",
+        "key-feature-headline": "S čím vám CBD pomůže:",
+        "key-feature-1": "Úleva od stresu",
+        "key-feature-2": "Úleva od bolesti",
+        "key-feature-3": "Vyšší soustředění",
+        "key-feature-4": "Svalová regenerace",
+        "key-feature-5": "Bolestivá menstruace",
+        "key-feature-6": "Lepší spánek"
+      }
+    },
+    "1638714623f1dc3786": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "O nás",
+        "heading": "Vždy nás fascinovalo,  jak dobré konopí umí  pomáhat tělu i mysli.",
+        "text": "<p>Proto jsme se rozhodli dělat tak kvalitní produkt, jak jen dovedeme. Bez chemikálií, jak to umí sama příroda.<\/p>",
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/1.png"
+      }
+    },
+    "16387166999076beaf": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Náš přístup",
+        "heading": "U nás si nekoupíte jen květy nebo olej, ale komplexní proces.",
+        "text": "<p>Od řízků až po curing, péči o naše konopí si hlídáme ve všech fázích jeho růstu. Cesta rostlin začíná v laboratořích ČZU, pokračuje přes naši pěstírnu o rozloze 1853 m2, a končí ve skle, aby uchovalo to nejlepší.<\/p>",
+        "image_first": true,
+        "image-1": "shopify:\/\/shop_images\/2.png"
+      }
+    },
+    "163871703234ffbf84": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Technologie a inovace",
+        "heading": "Posouváme standardy tuzemské growerské komunity",
+        "text": "<p>Nenásledujeme trendy. Vytváříme je. Česká republika podle nás totiž patří na konopnou mapu světa a rozhodně má šanci konkurovat zahraničním velikánům.<\/p>",
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/3.png"
+      }
+    },
+    "1638717525fdcc9cd8": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Pro vaše zdraví",
+        "heading": "Inspirujte se k péči o tělo i duši.",
+        "text": "<p>Soustředíme se na wellbeing těla i ducha. Náš produkt děláme s ohledem na vaše zdraví a jeho rozmanité aspekty.<\/p>",
+        "image_first": true,
+        "image-1": "shopify:\/\/shop_images\/4.png"
+      }
+    },
+    "16387175907c131fcd": {
+      "type": "section-with-multiple-images",
+      "settings": {
+        "subheading": "Vracíme zpět",
+        "heading": "Dobrý byznys je podle nás ten, který má pozitivní dopad na okolní svět.",
+        "text": "<p>Chceme se podělit o svůj úspěch a radost, kterou nám konopí přináší. Proto pravidelně přispíváme na________<\/p>",
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/5_faf56607-24d4-4d84-bb7f-30848897e0e8.png"
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Oleje",
+        "collection": "all",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16387372266544d159": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Novinky z CBD světa",
+        "blog": "news",
+        "post_limit": 4,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
       }
     }
   },
   "order": [
     "image_banner",
-    "rich_text",
+    "multi_column",
+    "1638735141ca197ce2",
+    "1638714623f1dc3786",
+    "16387166999076beaf",
+    "163871703234ffbf84",
+    "1638717525fdcc9cd8",
+    "16387175907c131fcd",
     "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "16387372266544d159"
   ]
 }

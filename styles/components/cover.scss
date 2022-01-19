@@ -1,0 +1,63 @@
+@import '../config';
+
+.banner {
+	.banner__box {
+		background-color: transparent;
+	}
+
+	.banner__content {
+		height: 100%;
+		padding-top: 0;
+		justify-content: center;
+		@media screen and (min-width: 750px) {
+			padding-bottom: 0;
+		}
+	}
+
+	.banner__media {
+		background-color: $black;
+		img {
+			max-width: 860px !important;
+			right: 0;
+			left: auto !important;
+		}
+	}
+
+	.banner__wrapper {
+		max-width: 1920px;
+	}
+
+	.banner__video {
+		display: block;
+		width: 100%;
+		height: 850px;
+	}
+
+	.banner__inner {
+		position: relative;
+		z-index: 100;
+		padding: 80px 40px 0;
+	}
+
+	.banner__text {
+		text-align: center;
+		color: #8A90A3;
+		font-size: 24px;
+		font-weight: 400;
+		margin-bottom: 0;
+		strong {
+			color: $white;
+			font-weight: 900;
+		}
+	}
+
+	.banner__heading {
+		text-align: center;
+		max-width: 1040px;
+		color: $white;
+		font-size: 96px;
+		line-height: 100px;
+		font-family: $jakarta;
+		font-weight: 900;
+	}
+}

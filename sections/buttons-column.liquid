@@ -1,0 +1,63 @@
+<div class="buttonsColumn">
+  <div class="buttonsColumn__wrapper wrapper">
+    <div class="buttonsColumn__row row">
+      <a class="buttonsColumn__col" href=""></a>
+      <a class="buttonsColumn__col" href=""></a>
+      <a class="buttonsColumn__col" href=""></a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Buttons column",
+    "settings": [
+		{
+          "type": "text",
+          "id": "subheading",
+          "default": "Section sub-heading",
+          "label": "Section sub-heading"
+        },        
+		{
+          "type": "text",
+          "id": "heading",
+          "default": "Section heading",
+          "label": "Section heading"
+        },
+		{
+          "type": "richtext",
+          "id": "text",
+		  "default": "<p>Section copy</p>",
+          "label": "Section copy"
+        },
+  		{
+          "type": "checkbox",
+          "id": "image_first",
+          "default": false,
+          "label": "Image first?"
+        },
+		{
+		  "type": "image_picker",
+		  "id": "image-1",
+      	  "label": "Section image 1"
+        },
+		{
+		  "type": "image_picker",
+		  "id": "image-2",
+      	  "label": "Section image 2"
+        },
+		{
+		  "type": "image_picker",
+		  "id": "image-3",
+      	  "label": "Section image 3"
+        }
+	],
+	"presets": [
+      {
+        "name": "Buttons column",
+        "category": "Custom"
+      }
+	]
+  }
+{% endschema %}
+

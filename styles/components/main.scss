@@ -1,0 +1,24 @@
+@import '../config';
+
+// Layout components
+@import 'header.scss';
+@import 'footer.scss';
+
+// Reusable components
+@import 'buttons.scss';
+@import 'multicolumns.scss';
+@import 'mImages.scss';
+@import 'collection.scss';
+@import 'card.scss';
+@import 'cart-notification.scss';
+@import 'blog.scss';
+@import 'article.scss';
+@import 'product.scss';
+@import 'shopping-cart.scss';
+@import 'facets.scss';
+@import 'icons.scss';
+@import 'newsletter.scss';
+
+// UI components
+@import 'cover.scss';
+@import 'keyFeatures.scss';

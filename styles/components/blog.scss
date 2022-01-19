@@ -1,0 +1,34 @@
+@import '../config';
+
+.blog {
+	.blog__posts {
+		gap: 40px;
+	}
+
+	.blog__post {
+		max-width: calc(50% - 80px);
+		&:nth-child(even) {
+			margin-top: calc(363px/2);
+		}
+	}
+
+	.blog__title {
+		font-weight: 800;
+		font-size: 64px;
+		line-height: 130%;
+		color: $white;
+	}
+
+	.media {
+		margin-bottom: 24px;
+	}
+
+	.blog-placeholder {
+		background: none;
+	}
+
+	.blog-placeholder__content {
+		padding: 0;
+		text-align: left;
+	}
+}

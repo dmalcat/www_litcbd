@@ -1,0 +1,24 @@
+@import '../config';
+
+// Lists
+.no-bullets {
+	li {
+		list-style: none;
+		&:before {
+			display: none;
+		}
+	}
+}
+// ------------------
+
+// Icons
+@mixin icon($icon-path) {
+	$icon-path: "#{$images-path}/#{$icon-path}";
+	$icon-size: 24px;
+
+	background-image: url("#{$icon-path}");
+	background-repeat: no-repeat;
+	padding-left: calc(#{$icon-size} + 1.5em); // icon width
+	background-size: auto $icon-size;
+	min-height: $icon-size;
+}
