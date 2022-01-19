@@ -35,12 +35,10 @@
 {%- endstyle -%}
 
 <div id="Banner-{{ section.id }}" class="banner">
+  <video class="banner__video" loop autoplay muted>
+    <source src="https://cdn.shopify.com/s/files/1/0412/9495/4654/files/fin.mp4?v=1642347082" type="video/mp4">
+  </video>
   <div class="banner__wrapper wrapper">
-
-    <video class="banner__video" loop autoplay muted>
-      <source src="https://cdn.shopify.com/s/files/1/0412/9495/4654/files/fin.mp4?v=1642347082" type="video/mp4">
-    </video>
-
     <div class="banner__content">
       <div class="banner__box">
       {%- for block in section.blocks -%}
