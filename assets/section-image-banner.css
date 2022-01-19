@@ -5,7 +5,8 @@
 }
 
 .banner--homepage {
-  flex-direction: unset;
+  display: block;
+  
 }
 
 @media screen and (max-width: 749px) {
