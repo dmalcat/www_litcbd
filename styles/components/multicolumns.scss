@@ -5,6 +5,10 @@
 }
 
 .multicolumn-list {
+	@media screen and (max-width: 1360px) {
+		flex-flow: row wrap;
+	}
+
 	.multicolumn-card {
 		display: flex;
 		.multicolumn-card__info {
@@ -19,6 +23,12 @@
 				font-weight: 400;
 				color: #81869D;
 			}
+		}
+	}
+
+	.multicolumn-list__item {
+		@media screen and (max-width: 1360px) {
+			width: auto;
 		}
 	}
 
