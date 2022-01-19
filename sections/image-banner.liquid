@@ -35,7 +35,7 @@
 {%- endstyle -%}
 
 <div id="Banner-{{ section.id }}" class="banner">
-  <div class="banner__inner">
+  <div class="banner__hero">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'heading' -%}
@@ -49,11 +49,6 @@
     </video>
   </div>
   <div class="banner__wrapper wrapper">
-    <div class="banner__content">
-      <div class="banner__box">
-
-      </div>
-    </div>
     <div class="banner__inner">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
