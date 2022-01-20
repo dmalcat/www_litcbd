@@ -32,6 +32,17 @@
         "show_text_below": true
       }
     },
+    "1642707205e9108884": {
+      "type": "buttons-column",
+      "settings": {
+        "link-1": "shopify:\/\/collections\/oleje",
+        "linktext-1": "Oleje",
+        "link-2": "shopify:\/\/collections\/kvety",
+        "linktext-2": "Květy",
+        "link-3": "shopify:\/\/collections\/doplnky",
+        "linktext-3": "Doplňky"
+      }
+    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -167,21 +178,11 @@
         "soft_background": false,
         "show_view_all": true
       }
-    },
-    "1642707205e9108884": {
-      "type": "buttons-column",
-      "settings": {
-        "link-1": "shopify:\/\/collections\/oleje",
-        "linktext-1": "Oleje",
-        "link-2": "shopify:\/\/collections\/kvety",
-        "linktext-2": "Květy",
-        "link-3": "shopify:\/\/collections\/doplnky",
-        "linktext-3": "Doplňky"
-      }
     }
   },
   "order": [
     "image_banner",
+    "1642707205e9108884",
     "multi_column",
     "1638735141ca197ce2",
     "1638714623f1dc3786",
@@ -190,7 +191,6 @@
     "1638717525fdcc9cd8",
     "16387175907c131fcd",
     "featured_products",
-    "16387372266544d159",
-    "1642707205e9108884"
+    "16387372266544d159"
   ]
 }
