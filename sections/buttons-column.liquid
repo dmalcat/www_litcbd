@@ -1,15 +1,24 @@
 <div class="buttonsColumn">
   <div class="buttonsColumn__wrapper wrapper">
     <div class="buttonsColumn__row row">
-      <a href="{{ section.settings.link-1 }}" class="buttonsColumn__col">
-	  	<span class="button button--secondary">{{ section.settings.linktext-1 }}</span>
-      </a>
-      <a href="{{ section.settings.link-2 }}" class="buttonsColumn__col">
-      	<span class="button button--secondary">{{ section.settings.linktext-2 }}</span>
-      </a>
-      <a href="{{ section.settings.link-3 }}"class="buttonsColumn__col">
-      	<span class="button button--secondary">{{ section.settings.linktext-3 }}</span>
-      </a>
+      <div class="buttonsColumn__col">
+        <a href="{{ section.settings.link-1 }}" class="button button--transparent">{{ section.settings.linktext-1 }}</a>
+        {%- if section.settings.button_image-1 != blank -%}
+          <img src="{{ section.settings.button_image-1 | img_url: '400x' }}" alt="">
+        {%- endif -%}
+      </div>
+      <div class="buttonsColumn__col">
+        <a href="{{ section.settings.link-2 }}" class="button button--transparent">{{ section.settings.linktext-2 }}</a>
+        {%- if section.settings.button_image-2 != blank -%}
+          <img src="{{ section.settings.button_image-2 | img_url: '400x' }}" alt="">
+        {%- endif -%}
+      </div>
+      <div class="buttonsColumn__col">
+        <a href="{{ section.settings.link-3 }}" class="button button--transparent">{{ section.settings.linktext-3 }}</a>
+        {%- if section.settings.button_image-3 != blank -%}
+          <img src="{{ section.settings.button_image-3 | img_url: '400x' }}" alt="">
+        {%- endif -%}
+      </div>
     </div>
   </div>
 </div>
@@ -29,7 +38,12 @@
       "label": "Button text 1",
       "default": "Click here"
     },
-	{
+    {
+      "type": "image_picker",
+      "id": "button_image-1",
+      "label": "Button image 1"
+    },
+    {
       "id": "link-2",
       "type": "url",
       "label": "Button link 2"
@@ -40,7 +54,12 @@
       "label": "Button text 2",
       "default": "Click here"
     },
-	{
+    {
+      "type": "image_picker",
+      "id": "button_image-2",
+      "label": "Button image 2"
+    },
+    {
       "id": "link-3",
       "type": "url",
       "label": "Button link 3"
@@ -50,14 +69,19 @@
       "type": "text",
       "label": "Button text 3",
       "default": "Click here"
+    },
+    {
+      "type": "image_picker",
+      "id": "button_image-3",
+      "label": "Button image 3"
     }
-  ],
-	"presets": [
-      {
-        "name": "Buttons column",
-        "category": "Custom"
-      }
-	]
+    ],
+  "presets": [
+    {
+      "name": "Buttons column",
+      "category": "Custom"
+    }
+  ]
 }
 {% endschema %}
 
