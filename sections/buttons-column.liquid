@@ -8,56 +8,33 @@
   </div>
 </div>
 
+<div id="section-cta">
+  <h3> {{ section.settings.text-box }} </h3>
+  <a href="{{ section.settings.link }}" class="button">{{ section.settings.linktext }}</a>
+</div>
+
 {% schema %}
-  {
-    "name": "Buttons column",
-    "settings": [
-		{
-          "type": "text",
-          "id": "subheading",
-          "default": "Section sub-heading",
-          "label": "Section sub-heading"
-        },        
-		{
-          "type": "text",
-          "id": "heading",
-          "default": "Section heading",
-          "label": "Section heading"
-        },
-		{
-          "type": "richtext",
-          "id": "text",
-		  "default": "<p>Section copy</p>",
-          "label": "Section copy"
-        },
-  		{
-          "type": "checkbox",
-          "id": "image_first",
-          "default": false,
-          "label": "Image first?"
-        },
-		{
-		  "type": "image_picker",
-		  "id": "image-1",
-      	  "label": "Section image 1"
-        },
-		{
-		  "type": "image_picker",
-		  "id": "image-2",
-      	  "label": "Section image 2"
-        },
-		{
-		  "type": "image_picker",
-		  "id": "image-3",
-      	  "label": "Section image 3"
-        }
-	],
-	"presets": [
-      {
-        "name": "Buttons column",
-        "category": "Custom"
-      }
-	]
-  }
+{
+  "name": "Call to action",
+  "settings": [
+    {
+      "id": "text-box",
+      "type": "text",
+      "label": "Heading",
+      "default": "Title"
+    },
+    {
+      "id": "link",
+      "type": "url",
+      "label": "Button link"
+    },
+    {
+      "id": "linktext",
+      "type": "text",
+      "label": "Button text",
+      "default": "Click Here"
+    }
+  ]
+}
 {% endschema %}
 
