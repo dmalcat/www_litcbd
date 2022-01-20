@@ -1,6 +1,8 @@
 @import '../config';
+@import '../core/breakpoints';
 
 .multicolumn {
+	margin-top: 0 !important;
 	margin-bottom: 15rem !important;
 }
 
@@ -9,8 +11,16 @@
 		flex-flow: row wrap;
 	}
 
+	@include max480px {
+		padding: 0 0.5rem !important;
+	}
+
 	.multicolumn-card {
 		display: flex;
+		@include max640px {
+			justify-content: center;
+		}
+
 		.multicolumn-card__info {
 			padding: 1rem 0 !important;
 		}
@@ -22,6 +32,9 @@
 				font-size: 20px;
 				font-weight: 400;
 				color: #81869D;
+				@include max480px {
+					font-size: 18px;
+				}
 			}
 		}
 	}
@@ -36,6 +49,9 @@
 		font-size: 26px;
 		font-weight: 900;
 		color: $white;
+		@include max480px {
+			font-size: 22px;
+		}
 	}
 
 	.multicolumn-card__image-wrapper {

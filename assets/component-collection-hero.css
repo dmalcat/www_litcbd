@@ -14,10 +14,6 @@
 }
 
 @media screen and (min-width: 750px) {
-  .collection-hero.collection-hero--with-image {
-    padding: calc(4rem + var(--page-width-margin)) 0
-      calc(4rem + var(--page-width-margin));
-  }
 
   .collection-hero--with-image .collection-hero__inner {
     padding-bottom: 0;
@@ -67,10 +63,6 @@
 
 .collection-hero--with-image .collection-hero__title {
   margin: 0;
-}
-
-.collection-hero--with-image .collection-hero__text-wrapper {
-  padding: 5rem 0 4rem;
 }
 
 @media screen and (max-width: 749px) {
