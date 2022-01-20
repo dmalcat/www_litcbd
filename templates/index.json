@@ -37,10 +37,13 @@
       "settings": {
         "link-1": "shopify:\/\/collections\/oleje",
         "linktext-1": "Oleje",
+        "button_image-1": "shopify:\/\/shop_images\/oleje.png",
         "link-2": "shopify:\/\/collections\/kvety",
         "linktext-2": "Květy",
+        "button_image-2": "shopify:\/\/shop_images\/kvety.png",
         "link-3": "shopify:\/\/collections\/doplnky",
-        "linktext-3": "Doplňky"
+        "linktext-3": "Doplňky",
+        "button_image-3": "shopify:\/\/shop_images\/doplnky.png"
       }
     },
     "multi_column": {
