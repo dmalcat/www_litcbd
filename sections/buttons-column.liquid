@@ -1,63 +1,87 @@
 <div class="buttonsColumn">
   <div class="buttonsColumn__wrapper wrapper">
     <div class="buttonsColumn__row row">
-      <a class="buttonsColumn__col" href=""></a>
-      <a class="buttonsColumn__col" href=""></a>
-      <a class="buttonsColumn__col" href=""></a>
+      <a href="{{ section.settings.link-1 }}" class="buttonsColumn__col">
+        <span class="button button--secondary">{{ section.settings.linktext-1 }}</span>
+        {%- if section.settings.button_image-1 != blank -%}
+          <img class="buttonsColumn__image" src="{{ section.settings.button_image-1 | img_url: '400x' }}" alt="">
+        {%- endif -%}
+      </a>
+      <a href="{{ section.settings.link-2 }}" class="buttonsColumn__col">
+        <span class="button button--secondary">{{ section.settings.linktext-2 }}</span>
+        {%- if section.settings.button_image-2 != blank -%}
+          <img class="buttonsColumn__image" src="{{ section.settings.button_image-2 | img_url: '400x' }}" alt="">
+        {%- endif -%}
+      </a>
+      <a href="{{ section.settings.link-3 }}" class="buttonsColumn__col">
+        <span class="button button--secondary">{{ section.settings.linktext-3 }}</span>
+        {%- if section.settings.button_image-3 != blank -%}
+          <img class="buttonsColumn__image" src="{{ section.settings.button_image-3 | img_url: '400x' }}" alt="">
+        {%- endif -%}
+      </a>
     </div>
   </div>
 </div>
 
 {% schema %}
-  {
-    "name": "Buttons column",
-    "settings": [
-		{
-          "type": "text",
-          "id": "subheading",
-          "default": "Section sub-heading",
-          "label": "Section sub-heading"
-        },        
-		{
-          "type": "text",
-          "id": "heading",
-          "default": "Section heading",
-          "label": "Section heading"
-        },
-		{
-          "type": "richtext",
-          "id": "text",
-		  "default": "<p>Section copy</p>",
-          "label": "Section copy"
-        },
-  		{
-          "type": "checkbox",
-          "id": "image_first",
-          "default": false,
-          "label": "Image first?"
-        },
-		{
-		  "type": "image_picker",
-		  "id": "image-1",
-      	  "label": "Section image 1"
-        },
-		{
-		  "type": "image_picker",
-		  "id": "image-2",
-      	  "label": "Section image 2"
-        },
-		{
-		  "type": "image_picker",
-		  "id": "image-3",
-      	  "label": "Section image 3"
-        }
-	],
-	"presets": [
-      {
-        "name": "Buttons column",
-        "category": "Custom"
-      }
-	]
-  }
+{
+  "name": "Buttons column",
+  "settings": [
+    {
+      "id": "link-1",
+      "type": "url",
+      "label": "Button link 1"
+    },
+    {
+      "id": "linktext-1",
+      "type": "text",
+      "label": "Button text 1",
+      "default": "Click here"
+    },
+    {
+      "type": "image_picker",
+      "id": "button_image-1",
+      "label": "Button image 1"
+    },
+    {
+      "id": "link-2",
+      "type": "url",
+      "label": "Button link 2"
+    },
+    {
+      "id": "linktext-2",
+      "type": "text",
+      "label": "Button text 2",
+      "default": "Click here"
+    },
+    {
+      "type": "image_picker",
+      "id": "button_image-2",
+      "label": "Button image 2"
+    },
+    {
+      "id": "link-3",
+      "type": "url",
+      "label": "Button link 3"
+    },
+    {
+      "id": "linktext-3",
+      "type": "text",
+      "label": "Button text 3",
+      "default": "Click here"
+    },
+    {
+      "type": "image_picker",
+      "id": "button_image-3",
+      "label": "Button image 3"
+    }
+    ],
+  "presets": [
+    {
+      "name": "Buttons column",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
 
