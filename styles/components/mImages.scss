@@ -67,8 +67,11 @@
 	.mImages__image {
 		display: block;
 		width: 100%;
-		max-width: 400px;
+
 		margin: 0 auto;
+		@include max940px {
+			max-width: 400px;
+		}
 	}
 
 	.mImages__subheadline {
