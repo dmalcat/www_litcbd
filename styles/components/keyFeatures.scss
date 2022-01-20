@@ -3,6 +3,10 @@
 
 .keyFeatures {
 	margin-bottom: 15rem;
+	@include max1024px {
+		margin-bottom: 7.5rem;
+	}
+
 	.keyFeatures__wrapper {
 		display: flex;
 		justify-content: center;
@@ -19,24 +23,14 @@
 
 	.keyFeatures__col--image {
 		margin-right: 6rem;
-		@media screen and (max-width: 860px) {
-			order: 1;
-			margin-right: 0;
-			margin-top: 6rem;
+		@include max940px {
+			display: none;
 		}
 
 		.mImages__image {
 			width: 100%;
 			@media screen and (max-width: 1190px) {
 				width: 40vw;
-			}
-
-			@media screen and (max-width: 860px) {
-				display: block;
-				max-width: 400px;
-				width: 100%;
-				margin: 0 auto;
-
 			}
 		}
 	}
@@ -50,6 +44,14 @@
 		text-transform: uppercase;
 		color: #32343E;
 		font-weight: 900;
+		@include max940px {
+			text-align: center;
+			line-height: 1.9;
+		}
+
+		@include max480px {
+			margin: 0 0 2.5rem;
+		}
 	}
 
 	.keyFeatures__list {
@@ -63,14 +65,17 @@
 			font-size: calc(1rem + 2vw);
 		}
 
-		li {
+		@include max768px {
+			font-size: calc(1rem + 3vw);
+		}
 
+		li {
 			position: relative;
 			margin-bottom: 40px;
 			cursor: pointer;
 			color: #6B6F85;
 			@extend .trans;
-			@media screen and (max-width: 860px) {
+			@include max940px {
 				display: block;
 				text-align: center;
 			}

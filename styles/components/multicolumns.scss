@@ -4,11 +4,18 @@
 .multicolumn {
 	margin-top: 0 !important;
 	margin-bottom: 15rem !important;
+	@include max1024px {
+		margin-bottom: 7.5rem !important;
+	}
 }
 
 .multicolumn-list {
 	@media screen and (max-width: 1360px) {
 		flex-flow: row wrap;
+	}
+
+	@media screen and (max-width: 1180px) {
+		justify-content: center;
 	}
 
 	@include max480px {
@@ -40,9 +47,30 @@
 	}
 
 	.multicolumn-list__item {
-		@media screen and (max-width: 1360px) {
-			width: auto;
+		@media screen and (max-width: 1180px) {
+			display: flex;
+			justify-content: center;
+			width: 50%;
+			max-width: none;
+			flex-grow: 0;
+			margin-bottom: 3rem;
+			&:last-child {
+				margin-bottom: 0;
+			}
 		}
+
+		@include max940px {
+			width: 100%;
+		}
+
+		.multicolumn-card {
+			@media screen and (max-width: 1180px) {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+			}
+		}
+
 	}
 
 	h3 {
