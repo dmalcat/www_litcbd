@@ -4,19 +4,19 @@
       <div class="buttonsColumn__col">
         <a href="{{ section.settings.link-1 }}" class="button button--secondary">{{ section.settings.linktext-1 }}</a>
         {%- if section.settings.button_image-1 != blank -%}
-          <img src="{{ section.settings.button_image-1 | img_url: '400x' }}" alt="">
+          <img class="buttonsColumn__image" src="{{ section.settings.button_image-1 | img_url: '400x' }}" alt="">
         {%- endif -%}
       </div>
       <div class="buttonsColumn__col">
         <a href="{{ section.settings.link-2 }}" class="button button--secondary">{{ section.settings.linktext-2 }}</a>
         {%- if section.settings.button_image-2 != blank -%}
-          <img src="{{ section.settings.button_image-2 | img_url: '400x' }}" alt="">
+          <img class="buttonsColumn__image" src="{{ section.settings.button_image-2 | img_url: '400x' }}" alt="">
         {%- endif -%}
       </div>
       <div class="buttonsColumn__col">
         <a href="{{ section.settings.link-3 }}" class="button button--secondary">{{ section.settings.linktext-3 }}</a>
         {%- if section.settings.button_image-3 != blank -%}
-          <img src="{{ section.settings.button_image-3 | img_url: '400x' }}" alt="">
+          <img class="buttonsColumn__image" src="{{ section.settings.button_image-3 | img_url: '400x' }}" alt="">
         {%- endif -%}
       </div>
     </div>
