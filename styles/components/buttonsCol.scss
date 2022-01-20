@@ -2,6 +2,7 @@
 @import '../core/breakpoints';
 
 .buttonsColumn {
+	margin: 5rem 0 calc(5rem + 80px);
 	.buttonsColumn__row {
 		gap: 1rem;
 		@include max1024px {
@@ -29,8 +30,8 @@
 			@include max1024px {
 				display: block;
 			}
-
 		}
+
 		@include max768px {
 			max-width: 400px;
 			width: 100%;
@@ -44,7 +45,6 @@
 
 			.button {
 				opacity: 0;
-				z-index: -1;
 			}
 		}
 	}
