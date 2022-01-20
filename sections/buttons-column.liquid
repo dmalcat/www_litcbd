@@ -1,38 +1,60 @@
 <div class="buttonsColumn">
   <div class="buttonsColumn__wrapper wrapper">
     <div class="buttonsColumn__row row">
-      <a class="buttonsColumn__col" href=""></a>
-      <a class="buttonsColumn__col" href=""></a>
-      <a class="buttonsColumn__col" href=""></a>
+      <div class="buttonsColumn__col">
+	  	<a href="{{ section.settings.link-1 }}" class="button">{{ section.settings.linktext-1 }}</a>
+      </div>
+      <div class="buttonsColumn__col">
+      	<a href="{{ section.settings.link-2 }}" class="button">{{ section.settings.linktext-2 }}</a>
+      </div>
+      <div class="buttonsColumn__col">
+      	<a href="{{ section.settings.link-3 }}" class="button">{{ section.settings.linktext-3 }}</a>
+      </div>
     </div>
   </div>
 </div>
 
 <div id="section-cta">
-  <h3> {{ section.settings.text-box }} </h3>
-  <a href="{{ section.settings.link }}" class="button">{{ section.settings.linktext }}</a>
+  
+  
 </div>
 
 {% schema %}
 {
-  "name": "Call to action",
+  "name": "Buttons column",
   "settings": [
     {
-      "id": "text-box",
-      "type": "text",
-      "label": "Heading",
-      "default": "Title"
-    },
-    {
-      "id": "link",
+      "id": "link-1",
       "type": "url",
       "label": "Button link"
     },
     {
-      "id": "linktext",
+      "id": "linktext-1",
       "type": "text",
       "label": "Button text",
-      "default": "Click Here"
+      "default": "Click here"
+    },
+	{
+      "id": "link-2",
+      "type": "url",
+      "label": "Button link"
+    },
+    {
+      "id": "linktext-2",
+      "type": "text",
+      "label": "Button text",
+      "default": "Click here"
+    },
+	{
+      "id": "link-3",
+      "type": "url",
+      "label": "Button link"
+    },
+    {
+      "id": "linktext-3",
+      "type": "text",
+      "label": "Button text",
+      "default": "Click here"
     }
   ],
 	"presets": [
