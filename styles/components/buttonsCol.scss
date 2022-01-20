@@ -1,0 +1,71 @@
+@import '../core/helpers';
+@import '../core/breakpoints';
+
+.buttonsColumn {
+	margin: 5rem 0 calc(5rem + 80px);
+	.buttonsColumn__row {
+		gap: 1rem;
+		@include max1024px {
+			gap: 2rem;
+		}
+
+		@include max768px {
+			flex-direction: column;
+		}
+	}
+
+	.buttonsColumn__col {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 33%;
+		text-decoration: none;
+		&:after {
+			content: '';
+			position: absolute;
+			display: none;
+			top: 0; left: 0; bottom: 0; right: 0;
+			background-color: rgba(0, 0, 0, 0.7);
+			@include max1024px {
+				display: block;
+			}
+		}
+
+		@include max768px {
+			max-width: 400px;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		&:hover {
+			.buttonsColumn__image {
+				opacity: 1;
+			}
+
+			.button {
+				opacity: 0;
+			}
+		}
+	}
+
+	.buttonsColumn__image {
+		opacity: 0;
+		@include max1024px {
+			width: 100%;
+			opacity: 1;
+		}
+
+		@extend .trans;
+	}
+
+	.button {
+		position: absolute;
+		top: 50%; left: 50%;
+		transform: translate(-50%, -50%);
+		@extend .trans;
+		@include max1024px {
+			z-index: 1;
+		}
+	}
+}
