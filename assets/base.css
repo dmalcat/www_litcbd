@@ -243,7 +243,7 @@ html.no-js .no-js-hidden {
 }
 
 .spaced-section--full-width:first-child {
-  margin: 0;
+  margin-top: 0;
 }
 
 .spaced-section--full-width:last-child {
