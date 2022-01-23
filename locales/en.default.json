@@ -252,7 +252,7 @@
       "onboarding_content": "Give your customers a summary of your blog post"
     },
     "featured_collection": {
-      "view_all": "View produkty",
+      "view_all": "View přodukty",
       "view_all_label": "View all products in the {{ collection_name }} collection"
     },
     "collection_list": {
