@@ -171,6 +171,7 @@
     },
     "16387372266544d159": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Novinky z CBD světa",
         "blog": "news",
