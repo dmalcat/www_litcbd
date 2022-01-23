@@ -1,0 +1,14 @@
+@import '../config';
+
+.search-modal {
+	background-color: $black;
+	.icon-close {
+		symbol, path {
+			fill: $white;
+		}
+	}
+}
+
+.predictive-search {
+	background-color: $black;
+}

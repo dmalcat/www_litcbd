@@ -1,30 +1,18 @@
 @import '../config';
 
 @font-face {
-	font-family: 'Plus Jakarta Sans';
-	src: url('PlusJakartaSans-Regular.woff') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Plus Jakarta Sans';
-	src: url('PlusJakartaSans-Bold.woff') format('woff2');
-	font-weight: 800;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Plus Jakarta Sans';
-	src: url('PlusJakartaSans-ExtraBold.woff') format('woff2');
+	font-family: 'Circular XX ExtraBlack';
+	src: url('https://cdn.shopify.com/s/files/1/0412/9495/4654/files/subset-CircularXX-ExtraBlack.woff2?v=1642971286') format('woff2');
 	font-weight: 900;
 	font-style: normal;
 }
+
+
 
 @font-face {
 	font-display: swap;
 }
 
 body {
-	font-family: $jakarta;
+	font-family: $open-sans;
 }
