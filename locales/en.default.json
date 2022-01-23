@@ -36,7 +36,7 @@
       "previous": "Previous page"
     },
     "search": {
-      "search": "Search"
+      "search": "Vyhledávání"
     },
     "cart": {
       "view": "View my cart ({{ count }})",
@@ -176,16 +176,16 @@
     "search": {
       "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
       "page": "Page",
-      "products": "Products",
+      "products": "Produkty",
       "results_with_count": {
-        "one": "{{ count }} result",
-        "other": "{{ count }} results"
+        "one": "{{ count }} výsledků",
+        "other": "{{ count }} výsledků"
       },
       "results_with_count_and_term": {
         "one": "{{ count }} result found for “{{ terms }}”",
         "other": "{{ count }} results found for “{{ terms }}”"
       },
-      "title": "Search results",
+      "title": "Výsledky vyhledávání",
       "search_for": "Search for “{{ terms }}”"
     },
     "cart": {
@@ -247,16 +247,16 @@
       "payment": "Payment methods"
     },
     "featured_blog": {
-      "view_all": "View all",
+      "view_all": "Všechny novinky",
       "onboarding_title": "Blog post",
       "onboarding_content": "Give your customers a summary of your blog post"
     },
     "featured_collection": {
-      "view_all": "View all",
+      "view_all": "View přodukty",
       "view_all_label": "View all products in the {{ collection_name }} collection"
     },
     "collection_list": {
-      "view_all": "View all"
+      "view_all": "View produkty"
     },
     "collection_template": {
       "empty": "No products found",
@@ -394,6 +394,11 @@
       "expired": "Expired",
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
+    }
+  },
+  "shopify": {
+    "page_titles": {
+      "search": "Vyhledávání"
     }
   }
 }
