@@ -1,22 +1,56 @@
 @import '../config';
+@import '../core/breakpoints';
 
 .blog {
 	.blog__posts {
+		justify-content: space-between;
 		gap: 40px;
+		@include max940px {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.article + article {
+			margin-left: 0 !important;
+		}
 	}
 
 	.blog__post {
-		max-width: calc(50% - 80px);
-		&:nth-child(even) {
+		flex-flow: row wrap;
+		max-width: calc(50% - 30px);
+		width: 100%;
+		@include max940px {
+			max-width: 600px;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+
+		&:first-child {
 			margin-top: calc(363px/2);
+			@include max940px {
+				margin-top: 0;
+			}
 		}
 	}
 
 	.blog__title {
-		font-weight: 800;
+		font-weight: 900;
 		font-size: 64px;
 		line-height: 130%;
 		color: $white;
+		@include max1024px {
+			font-size: 48px;
+		}
+
+		@include max940px {
+			display: block;
+			text-align: center;
+			width: 100%;
+		}
+
+		@include max640px {
+			font-size: 34px;
+		}
 	}
 
 	.media {
