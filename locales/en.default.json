@@ -660,7 +660,7 @@
         "blocks": {
           "contact_method_title": "Kontakt",
           "billing_address_title": "Fakturační adresa",
-          "shipping_address_title": "Doručit na",
+          "shipping_address_title": "Adresa",
           "shipping_method_title": "Doprava",
           "payment_method_title": "Platba",
           "change_link_label": "Změnit",
