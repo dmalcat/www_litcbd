@@ -563,7 +563,9 @@
         "same_billing_address_label": "Stejná jako doručovací adresa",
         "different_billing_address_label": "Jiná fakturační adresa",
         "billing_address_title": "Doručovací adresa",
-        "offsite_gateway_redirect_hint": "Po kliknutí na {{ button_label }} budete přesměrování na {{ gateway_label }} pro bezpečné dokončení objednávky. "
+        "offsite_gateway_redirect_hint": "Po kliknutí na {{ button_label }} budete přesměrování na {{ gateway_label }} pro bezpečné dokončení objednávky. ",
+        "card_security_notice": "Všechny transakce jsou bezpečně zašifrovány. ",
+        "card_information_notice": "Všechny transakce jsou bezpečně zašifrovány. Vaše platební údaje neukládáme. "
       },
       "payment_summary": {
         "billing_address_title": "Fakturační adresa",
