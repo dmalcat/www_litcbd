@@ -652,7 +652,7 @@
         "contact_us_lowercase": "Kontaktujte nás",
         "contact_us_html": "Potřebujete poradit? {{ contact_us }}",
         "thank_you_title": "Vaše objednávka je potvrzena. ",
-        "order_status_confirmed_order_with_email": "Potvrzení objednávky posíláme emailem. "
+        "order_status_confirmed_order_with_email": "Potvrzení posíláme emailem. "
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Rychlá platba",
