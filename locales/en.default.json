@@ -629,7 +629,13 @@
         "page_title": "Děkujeme {{ display_name }}",
         "page_title_no_name": "Děkujeme!",
         "cancelled_page_title": "Objednávka zrušena",
-        "customer_information_title": "Údaje o zákazníkovi"
+        "customer_information_title": "Údaje o zákazníkovi",
+        "contact_information_title": "Kontaktní informace",
+        "billing_address_title": "Fakturační adresa",
+        "shipping_address_title": "Doručovací adresa",
+        "contact_us": "Kontaktujte nás",
+        "contact_us_lowercase": "Kontaktujte nás",
+        "contact_us_html": "Potřebujete poradit? {{ contact_us }}"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Rychlá platba",
