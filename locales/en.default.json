@@ -669,7 +669,9 @@
           "change_shipping_address_link_label": "Změnit doručovací adresu",
           "change_shipping_method_link_label": "Změnit způsob dopravy",
           "change_payment_method_link_label": "Změnit způsob platby"
-        }
+        },
+        "title": "Kontrola objednávky",
+        "review_title": "Kontrola objednávky"
       }
     },
     "notices": {
