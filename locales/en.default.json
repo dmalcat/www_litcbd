@@ -469,7 +469,8 @@
         "postal_code_label": "PSČ",
         "postal_code_placeholder": "PSČ",
         "postcode_label": "PSČ",
-        "postcode_placeholder": "PSČ"
+        "postcode_placeholder": "PSČ",
+        "optional_company_label": "Firma (nepovinné)"
       },
       "delivery_options": {
         "free_total_label": "Zdarma",
