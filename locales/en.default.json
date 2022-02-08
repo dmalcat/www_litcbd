@@ -631,7 +631,8 @@
         "wait": {
           "short": "Zpracováváme vaší objednávku",
           "no_auto_refresh_html": "Pokud nebudete automaticky přesměrováni, klikněte zde {{ link }}."
-        }
+        },
+        "you_will_not_be_charged": " "
       },
       "thank_you": {
         "title": "Děkujeme za vaší objednávku! ",
