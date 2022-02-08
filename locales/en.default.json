@@ -549,7 +549,6 @@
       },
       "shipping": {
         "title": "Doprava",
-        "shipping_method_notice": "Poznámka k dopravě",
         "shipping_method_title": "Výběr dopravy",
         "please_enter_your_shipping_information_notice": "Vyberte způsob dopravy"
       },
