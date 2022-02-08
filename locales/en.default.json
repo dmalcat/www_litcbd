@@ -545,12 +545,14 @@
         "total_already_paid_label": "Již zaplaceno",
         "unit_price": {
           "accessible_separator": "za"
-        }
+        },
+        "free_total_label": "Zdarma"
       },
       "shipping": {
         "title": "Doprava",
         "shipping_method_title": "Výběr dopravy",
-        "please_enter_your_shipping_information_notice": "Vyberte způsob dopravy"
+        "please_enter_your_shipping_information_notice": "Vyberte způsob dopravy",
+        "free_rate_label": "Zdarma"
       },
       "payment": {
         "title": "Platba",
@@ -558,7 +560,8 @@
         "apply_gift_card_button_label": "Uplatnit"
       },
       "payment_summary": {
-        "billing_address_title": "Fakturační adresa"
+        "billing_address_title": "Fakturační adresa",
+        "free_label": "Zdarma"
       },
       "field_errors": {
         "handle_phone_invalid": "Zadejte platné telefonní číslo",
