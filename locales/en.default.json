@@ -547,7 +547,7 @@
           "accessible_separator": "za"
         },
         "free_total_label": "Zdarma",
-        "vat_label_html": "Včetně {{ amout }} DPH"
+        "vat_label_html": "Včetně {{ amount }} DPH"
       },
       "shipping": {
         "title": "Doprava",
