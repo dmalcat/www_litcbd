@@ -498,7 +498,7 @@
       },
       "order_summary": {
         "title": "Shrnutí objednávky",
-        "order_name_label": "Název objednávky",
+        "order_name_label": "Vaše objednávka",
         "shopping_cart_label": "Košík",
         "discount_title": "Slevový kód",
         "discount_label": "Slevový kód",
