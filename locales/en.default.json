@@ -630,6 +630,10 @@
         "page_title_no_name": "Děkujeme!",
         "cancelled_page_title": "Objednávka zrušena",
         "customer_information_title": "Údaje o zákazníkovi"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Rychlá platba",
+        "or": "nebo"
       }
     }
   }
