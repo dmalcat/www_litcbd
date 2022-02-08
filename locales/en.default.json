@@ -524,7 +524,7 @@
         "pickup_label": "Vyzvednutí",
         "no_pickup_location": "Vaší objednávku nelze vyzvednout. Vyberte místo vyzvednutí. ",
         "calculating_shipping": "Počítám...",
-        "shipping_default_value": "Bude vypočteno v dalším kroku",
+        "shipping_default_value": "Cena dopravy bude přičtena v dalším kroku",
         "taxes_label": "Daň",
         "estimated_taxes_label": "Daň",
         "total_label": "Celkem",
