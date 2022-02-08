@@ -452,7 +452,7 @@
         "optional_first_name_label": "Vaše jméno",
         "last_name_label": "Příjmení",
         "company_label": "Firma",
-        "address1_label": "Adresa",
+        "address1_label": "Ulice",
         "city_label": "Město",
         "country_label": "Země",
         "country_code": "Kód země",
