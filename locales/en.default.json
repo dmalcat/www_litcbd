@@ -652,7 +652,10 @@
         "contact_us_lowercase": "Kontaktujte nás",
         "contact_us_html": "Potřebujete poradit? {{ contact_us }}",
         "thank_you_title": "Vaše objednávka je potvrzena. ",
-        "order_status_confirmed_order_with_email": "Potvrzení posíláme emailem. "
+        "order_status_confirmed_order_with_email": "Potvrzení posíláme emailem. ",
+        "payment_method_title": "Způsob platby",
+        "shipping_method_title": "Doprava",
+        "tracking_number": "Číslo objednávky"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Rychlá platba",
@@ -677,6 +680,10 @@
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Souhlasím se zasíláním nabídek a novinek emailem"
+      },
+      "customer_payment_methods": {
+        "page_title": "Platební metody",
+        "title": "Platební metody"
       }
     },
     "notices": {
