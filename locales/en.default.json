@@ -650,7 +650,9 @@
         "shipping_address_title": "Doručovací adresa",
         "contact_us": "Kontaktujte nás",
         "contact_us_lowercase": "Kontaktujte nás",
-        "contact_us_html": "Potřebujete poradit? {{ contact_us }}"
+        "contact_us_html": "Potřebujete poradit? {{ contact_us }}",
+        "thank_you_title": "Vaše objednávka je potvrzena. ",
+        "order_status_confirmed_order_with_email": "Potvrzení objednávky posíláme emailem. "
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Rychlá platba",
@@ -672,6 +674,9 @@
         },
         "title": "Kontrola objednávky",
         "review_title": "Kontrola objednávky"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Souhlasím se zasíláním nabídek a novinek emailem"
       }
     },
     "notices": {
