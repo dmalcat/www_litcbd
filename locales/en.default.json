@@ -559,7 +559,10 @@
         "title": "Platba",
         "discount_button_action_label": "Uplatnit slevový kód",
         "apply_gift_card_button_label": "Uplatnit",
-        "card_change_label": "Změnit"
+        "card_change_label": "Změnit",
+        "same_billing_address_label": "Stejná jako doručovací adresa",
+        "different_billing_address_label": "Jiná fakturační adresa",
+        "billing_address_title": "Doručovací adresa"
       },
       "payment_summary": {
         "billing_address_title": "Fakturační adresa",
