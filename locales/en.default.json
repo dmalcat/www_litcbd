@@ -558,7 +558,8 @@
       "payment": {
         "title": "Platba",
         "discount_button_action_label": "Uplatnit slevový kód",
-        "apply_gift_card_button_label": "Uplatnit"
+        "apply_gift_card_button_label": "Uplatnit",
+        "card_change_label": "Změnit"
       },
       "payment_summary": {
         "billing_address_title": "Fakturační adresa",
