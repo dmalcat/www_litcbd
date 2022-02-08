@@ -566,7 +566,7 @@
         "offsite_gateway_redirect_hint": "Po kliknutí na \"{{ button_label }}\" budete přesměrování na {{ gateway_label }} pro bezpečné dokončení objednávky. ",
         "card_security_notice": "Všechny transakce jsou bezpečně zašifrovány. ",
         "card_information_notice": "Všechny transakce jsou bezpečně zašifrovány. Vaše platební údaje neukládáme. ",
-        "billing_address_description": "Při výběru adresy dbejte na to, aby se shodovala s adresou platební metody. "
+        "billing_address_description": " "
       },
       "payment_summary": {
         "billing_address_title": "Fakturační adresa",
