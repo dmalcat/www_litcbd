@@ -588,7 +588,9 @@
         "address_company_contains_html_tags": "Název firmy nemůže obsahovat html značky",
         "address_phone_blank": "Zadejte platné telefonní číslo",
         "address_zip_blank": "Zadejte PSČ",
-        "address_zip_invalid_for_country": "Zadejte platné PSČ"
+        "address_zip_invalid_for_country": "Zadejte platné PSČ",
+        "reduction_code_code_not_found": "Zadejte platný slevový kód",
+        "reduction_code_discount_not_found": "Zadejte platný slevový kód"
       },
       "payment_errors": {
         "generic_error": "Při zpracování objednávky došlo k chybě. Zkuste vybrat jiný způsob platby. "
