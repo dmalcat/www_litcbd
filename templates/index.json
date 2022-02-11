@@ -42,7 +42,7 @@
         "linktext-2": "Květy",
         "button_image-2": "shopify:\/\/shop_images\/kvety.png",
         "link-3": "shopify:\/\/collections\/doplnky",
-        "linktext-3": "Others",
+        "linktext-3": "Ostatní",
         "button_image-3": "shopify:\/\/shop_images\/doplnky.png"
       }
     },
@@ -69,7 +69,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Symbol-3.png",
-            "title": "Spolupracujeme s ČZU",
+            "title": "Organic",
             "text": "<p>Zastáváme nejpřísnější kontrolu kvality. Bez chemie a dalších zbytečností.<\/p>"
           }
         }
@@ -94,7 +94,7 @@
       "type": "keyFeatures",
       "settings": {
         "key-feature-1-image": "shopify:\/\/shop_images\/slideshow-placeholder.png",
-        "key-feature-headline": "S čím vám CBD pomůže:",
+        "key-feature-headline": "",
         "key-feature-1": "Úleva od stresu",
         "key-feature-2": "Úleva od bolesti",
         "key-feature-3": "Vyšší soustředění",
@@ -118,7 +118,7 @@
       "settings": {
         "subheading": "Náš přístup",
         "heading": "U nás si nekoupíte jen květy nebo olej, ale komplexní proces.",
-        "text": "<p>Od řízků až po curing, péči o naše konopí si hlídáme ve všech fázích jeho růstu. Cesta rostlin začíná v laboratořích ČZU, pokračuje přes naši pěstírnu o rozloze 1853 m2, a končí ve skle, aby uchovalo to nejlepší.<\/p>",
+        "text": "<p>Od řízků až po curing, péči o naše konopí si hlídáme ve všech fázích jeho růstu. Cesta rostlin začíná v laboratořích, pokračuje přes naší pěstírnu o rozloze 1853 m2, a končí ve skle, aby uchovalo to nejlepší.<\/p>",
         "image_first": true,
         "image-1": "shopify:\/\/shop_images\/2.png"
       }
