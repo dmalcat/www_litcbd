@@ -24,6 +24,16 @@
 		.header__active-menu-item {
 			color: $menu-items-color;
 			text-decoration: none;
+			span {
+				transition: all 300ms ease-in-out;
+			}
+
+			&:hover {
+				span {
+					text-decoration: none;
+					color: $white;
+				}
+			}
 		}
 
 		.header__menu-item {
