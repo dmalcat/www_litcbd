@@ -138,6 +138,12 @@ a {
 	color: $white;
 }
 
+.underlined-link {
+	&:hover {
+		color: $white;
+	}
+}
+
 .full-unstyled-link {
 	color: $white;
 }
