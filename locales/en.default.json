@@ -400,6 +400,297 @@
     "page_titles": {
       "search": "Vyhledávání",
       "products": "Produkty"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Pokladna",
+        "error_page_title": "Chyba",
+        "continue_button_label": "Pokračovat",
+        "complete_purchase_button_label": "Dokončit objednávku",
+        "pay_now_button_label": "Zaplatit hned",
+        "edit_link_label": "Upravit",
+        "all_rights_reserved": "Všechna práva vyhrazena",
+        "cart": "Košík",
+        "close_modal_label": "Zavřít",
+        "close_notice_label": "Zavřít",
+        "expand_notice_label": "Zobrazit více",
+        "continue_to_shipping_method": "Pokračovat na výběr dopravy",
+        "continue_to_payment_method": "Pokračovat na výběr platby",
+        "continue_to_review": "Zkontrolovat objednávku",
+        "back_to_cart": "Zpět do košíku",
+        "back_to_contact_information": "Zpět ke kontaktním informacím",
+        "back_to_shipping_method": "Zpět na výběr dopravy",
+        "back_to_payment_method": "Zpět na výběr platby",
+        "choose_shipping_method": "Vyberte způsob dopravy",
+        "choose_payment_method": "Vyberte způsob platby",
+        "choose_billing_address": "Výběr fakturační adresy",
+        "contact_us_html": "Kontaktujte nás pro více informací",
+        "autocomplete_title": "Návrhy",
+        "autocomplete_single_item": "Jedna položka dostupná",
+        "autocomplete_multi_item": "dostupných položek",
+        "autocomplete_close": "Zavřít návrhy",
+        "forwarding_indicator": {
+          "new_window": "Otevřít v novém okně",
+          "external": "Otevřít externí odkaz",
+          "external_and_new_window": "Otevřít externí odkaz v novém okně"
+        },
+        "tooltip_accessibility_label": "Více informací"
+      },
+      "contact": {
+        "title": "Informace",
+        "address_title": "Ulice",
+        "shipping_address_title": "Dodací adresa",
+        "delivery_option_title": "Způsob doručení",
+        "contact_method_title": "Kontaktní informace",
+        "email_label": "Email",
+        "email_placeholder": "Váš email",
+        "email_or_phone_label": "Email nebo telefonní číslo",
+        "email_or_phone_placeholder": "Váš email nebo telefonní číslo",
+        "stored_addresses_label": "Uložené adresy",
+        "new_address_label": "Vytvořit novou adresu",
+        "first_name_label": "Jméno",
+        "optional_first_name_label": "Vaše jméno",
+        "last_name_label": "Příjmení",
+        "company_label": "Firma",
+        "address1_label": "Ulice",
+        "city_label": "Město",
+        "country_label": "Země",
+        "country_code": "Kód země",
+        "county_label": "Kraj",
+        "state_label": "Země",
+        "state_placeholder": "Země",
+        "region_label": "Region",
+        "state_and_territory_placeholder": "Stát",
+        "phone_label": "Telefonní číslo",
+        "optional_phone_label": "Telefonní číslo (nepovinné)",
+        "phone_tooltip": "V případě, že vás budeme potřebovat kontaktovat ohledně vaší objednávky",
+        "zip_code_label": "PSČ",
+        "zip_code_placeholder": "PSČ",
+        "postal_code_label": "PSČ",
+        "postal_code_placeholder": "PSČ",
+        "postcode_label": "PSČ",
+        "postcode_placeholder": "PSČ",
+        "optional_company_label": "Firma (nepovinné)"
+      },
+      "delivery_options": {
+        "free_total_label": "Zdarma",
+        "shipping_address": "Doručovací adresa",
+        "pick_up": "Vyzvednutí",
+        "pick_up_locations": "Výběr vyzvednutí "
+      },
+      "customer_account": {
+        "have_an_account_label": "Máte již uživatelský účet?",
+        "sign_in_link_label": "Přihlásit se",
+        "sign_out_link_label": "Odhlásit se",
+        "save_my_information_label": "Uložit moje informace"
+      },
+      "stock": {
+        "title": "Vyprodáno",
+        "product_column_header": "Produkty",
+        "quantity_column_header": "Množství",
+        "price_column_header": "Cena",
+        "status_column_header": "Stav",
+        "removed_from_cart_notice": "Odstranit z košíku",
+        "sold_out_label": "Vyprodáno",
+        "remove_from_cart_button_label": "Odstranit z košíku",
+        "continue_shopping_button_label": "Pokračovat v nakupování",
+        "go_back_to_cart_button_label": "Zpátky do košíku"
+      },
+      "order_summary": {
+        "title": "Shrnutí objednávky",
+        "order_name_label": "Vaše objednávka",
+        "shopping_cart_label": "Košík",
+        "discount_title": "Slevový kód",
+        "discount_label": "Slevový kód",
+        "discount_placeholder": "Slevový kód",
+        "gift_card_title": "Slevový kód",
+        "gift_card_label": "Slevový kód",
+        "gift_card_placeholder": "Slevový kód",
+        "gift_card_and_discount_title": "Kód slevy",
+        "gift_card_and_discount_label": "Kód slevy",
+        "gift_card_and_discount_placeholder": "Kód slevy",
+        "remove_discount_label": "Odstranit kód",
+        "free_shipping_discount_label": "Doprava zdarma",
+        "applied_free_shipping_discount_label": "Uplatnit",
+        "apply_discount_button_label": "Uplatnit",
+        "discount_has_been_applied": "Sleva uplatněna!",
+        "discount_has_been_removed": "Sleva byla odstraněna",
+        "gift_card_has_been_applied": "Sleva uplatněna!",
+        "gift_card_has_been_removed": "Sleva byla odstraněna",
+        "discount_already_applied": "Sleva již byla uplatněna",
+        "cart_does_not_meet_discount_requirements_notice": "Slevový kód není použitelný pro tyto položky",
+        "subtotal_label": "Cena",
+        "shipping_label": "Doprava",
+        "pickup_label": "Vyzvednutí",
+        "no_pickup_location": "Vaší objednávku nelze vyzvednout. Vyberte místo vyzvednutí. ",
+        "calculating_shipping": "Počítám...",
+        "shipping_default_value": "Cena dopravy bude přičtena v dalším kroku",
+        "taxes_label": "Daň",
+        "estimated_taxes_label": "Daň",
+        "total_label": "Celkem",
+        "total_outstanding_label": "Částka k úhradě",
+        "partial_total_label": "Celkem",
+        "paid_label": "Zaplaceno",
+        "description_label": "Popis",
+        "price_label": "Cena",
+        "quantity_label": "Množství",
+        "product_change_label": "Změnit",
+        "product_image_label": "Obrázek produktu",
+        "expand_order_summary": "Zobrazit shrnutí objednávky",
+        "collapse_order_summary": "Skrýt shrnutí objednávky",
+        "original_price": "Původní cena",
+        "sale_price": "Zlevněná cena",
+        "total_updated_label": "Aktualizovaná celková částka",
+        "order_total_updated_label": "Aktualizovaná celková částka",
+        "total_already_paid_label": "Již zaplaceno",
+        "unit_price": {
+          "accessible_separator": "za"
+        },
+        "free_total_label": "Zdarma",
+        "vat_label_html": "Včetně {{ amount }} DPH"
+      },
+      "shipping": {
+        "title": "Doprava",
+        "shipping_method_title": "Výběr dopravy",
+        "please_enter_your_shipping_information_notice": "Vyberte způsob dopravy",
+        "free_rate_label": "Zdarma"
+      },
+      "payment": {
+        "title": "Platba",
+        "discount_button_action_label": "Uplatnit slevový kód",
+        "apply_gift_card_button_label": "Uplatnit",
+        "card_change_label": "Změnit",
+        "same_billing_address_label": "Stejná jako doručovací adresa",
+        "different_billing_address_label": "Jiná fakturační adresa",
+        "billing_address_title": "Doručovací adresa ",
+        "offsite_gateway_redirect_hint": "Po kliknutí na \"{{ button_label }}\" budete přesměrování na {{ gateway_label }} pro bezpečné dokončení objednávky. ",
+        "card_security_notice": "Všechny transakce jsou bezpečně zašifrovány. ",
+        "card_information_notice": "Všechny transakce jsou bezpečně zašifrovány. Vaše platební údaje neukládáme. ",
+        "billing_address_description": " "
+      },
+      "payment_summary": {
+        "billing_address_title": "Fakturační adresa",
+        "free_label": "Zdarma"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Zadejte platné telefonní číslo",
+        "handle_email_invalid": "Zadejte platný email",
+        "email_invalid": "Email není ve správném tvaru",
+        "email_or_phone_blank": "Zadejte email nebo telefonní číslo",
+        "email_or_phone_invalid": "Zadejte platný email nebo telefonní číslo",
+        "address_first_name_blank": "Zadejte vaše jméno",
+        "address_first_name_too_long": "Vaše jméno je moc dlouhé (maximum 255 znaků) ",
+        "address_first_name_contains_html_tags": "Jméno nemůže obsahovat html značky",
+        "address_last_name_blank": "Zadejte vaše příjmení",
+        "address_last_name_too_long": "Vaše příjmení je moc dlouhé (maximum 255 znaků) ",
+        "address_last_name_contains_html_tags": "Příjmení nemůže obsahovat html značky",
+        "address_address1_blank": "Zadejte adresu",
+        "address_address1_too_long": "Vaše adresa je moc dlouhá (maximum 255 znaků) ",
+        "address_address1_contains_html_tags": "Adresa nemůže obsahovat html značky",
+        "address_city_blank": "Zadejte město",
+        "address_city_too_long": "Město je moc dlouhé (maximum 255 znaků)",
+        "address_city_contains_html_tags": "Město nemůže obsahovat html značky",
+        "address_country_blank": "Vyberte stát",
+        "address_company_blank": "Zadejte název firmy",
+        "address_company_too_long": "Název firmy je moc dlouhý (maximum 255 znaků)",
+        "address_company_contains_html_tags": "Název firmy nemůže obsahovat html značky",
+        "address_phone_blank": "Zadejte platné telefonní číslo",
+        "address_zip_blank": "Zadejte PSČ",
+        "address_zip_invalid_for_country": "Zadejte platné PSČ",
+        "reduction_code_code_not_found": "Zadejte platný slevový kód",
+        "reduction_code_discount_not_found": "Zadejte platný slevový kód"
+      },
+      "payment_errors": {
+        "generic_error": "Při zpracování objednávky došlo k chybě. Zkuste vybrat jiný způsob platby. "
+      },
+      "alternative_payment_method": {
+        "button_html": "Dokončit platbu pomocí {{ method }}",
+        "button_label": "Dokončit platbu pomocí {{ method }}"
+      },
+      "paypal": {
+        "button_html": "Dokončit platbu pomocí {{ logo }}"
+      },
+      "post_purchase": {
+        "components": {
+          "close": "Zavřít",
+          "expand": "Zobrazit více",
+          "processing": "Zpracovávám...",
+          "submit": "Potvrdit"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Probíhá přesměrování... ",
+        "redirecting_title": "Probíhá přesměrování... ",
+        "redirecting_notice": "Vyčkejte, než vás přesměrujeme",
+        "complete_your_purchase_title": "Dokončit nákup",
+        "continue_to_payment_gateway_button_label": "Zpracovávání objednávky",
+        "page_title": "Zpracování objednávky",
+        "title": "Zpracování objednávky",
+        "your_order_has_been_received_title": "Děkujeme za vaší objednávku ",
+        "you_will_receive_confirmation": "Potvrzení objednávky obdržíte emailem. ",
+        "wait": {
+          "short": "Zpracováváme vaší objednávku",
+          "no_auto_refresh_html": "Pokud nebudete automaticky přesměrováni, klikněte zde {{ link }}."
+        },
+        "you_will_not_be_charged": " "
+      },
+      "thank_you": {
+        "title": "Děkujeme za vaší objednávku! ",
+        "confirmation_email_sent_text": "Email s potvrzením objednávky byl odeslán na tento email {{ email }}. ",
+        "return_to_store_link_label": "Pokračovat v nakupování",
+        "print_link_label": "Vytisknout účtenku",
+        "payment_information_title": "Údaje o platbě",
+        "shipping_information_title": "Informace o dopravě",
+        "page_title": "Děkujeme {{ display_name }}",
+        "page_title_no_name": "Děkujeme!",
+        "cancelled_page_title": "Objednávka zrušena",
+        "customer_information_title": "Údaje o zákazníkovi",
+        "contact_information_title": "Kontaktní informace",
+        "billing_address_title": "Fakturační adresa",
+        "shipping_address_title": "Doručovací adresa",
+        "contact_us": "Kontaktujte nás",
+        "contact_us_lowercase": "Kontaktujte nás",
+        "contact_us_html": "Potřebujete poradit? {{ contact_us }}",
+        "thank_you_title": "Vaše objednávka je potvrzena. ",
+        "order_status_confirmed_order_with_email": "Potvrzení posíláme emailem. ",
+        "payment_method_title": "Způsob platby",
+        "shipping_method_title": "Doprava",
+        "tracking_number": "Číslo objednávky"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Rychlá platba",
+        "or": "nebo"
+      },
+      "review": {
+        "blocks": {
+          "contact_method_title": "Kontakt",
+          "billing_address_title": "Fakturační adresa",
+          "shipping_address_title": "Adresa",
+          "shipping_method_title": "Doprava",
+          "payment_method_title": "Platba",
+          "change_link_label": "Změnit",
+          "change_contact_method_link_label": "Změnit kontaktní údaje",
+          "change_billing_address_link_label": "Změnit fakturační adresu",
+          "change_shipping_address_link_label": "Změnit doručovací adresu",
+          "change_shipping_method_link_label": "Změnit způsob dopravy",
+          "change_payment_method_link_label": "Změnit způsob platby"
+        },
+        "title": "Kontrola objednávky",
+        "review_title": "Kontrola objednávky"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Souhlasím se zasíláním nabídek a novinek emailem"
+      },
+      "customer_payment_methods": {
+        "page_title": "Platební metody",
+        "title": "Platební metody"
+      }
+    },
+    "notices": {
+      "cart": {
+        "changed": "Košík aktualizován",
+        "items_changed": "Jedna nebo více položek bylo změněno. "
+      }
     }
   }
 }
