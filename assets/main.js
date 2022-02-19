@@ -30,6 +30,7 @@ $(document).ready(function(){
 
 	var paralaxImage = document.getElementsByClassName('mImages__photo');
 	new simpleParallax(paralaxImage, {
-		overflow: true
+		overflow: true,
+		scale: 1.3
 	});
 });
