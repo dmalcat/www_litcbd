@@ -109,7 +109,8 @@
         "subheading": "Section sub-heading",
         "heading": "Section heading",
         "text": "<p>Section copy<\/p>",
-        "image_first": false
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/kvety.png"
       }
     },
     "1638714623f1dc3786": {
