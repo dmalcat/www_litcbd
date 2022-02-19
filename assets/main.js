@@ -27,4 +27,7 @@ $(document).ready(function(){
 			});
 		});
 	}
+
+	var paralaxImage = document.getElementsByClassName('mImages__photo');
+	new simpleParallax(paralaxImage);
 });

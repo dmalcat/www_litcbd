@@ -11,9 +11,6 @@
   
 <script>
     AOS.init();
-
-    var paralaxImage = document.getElementsByClassName('mImages__image');
-    new simpleParallax(paralaxImage);
 </script>
 
 <div class="mImages mImages--about">
@@ -29,8 +26,8 @@
             <div class="mImages__imageInner">
                 <lottie-player class="mImages__symbol" id="about-symbol" src="https://assets3.lottiefiles.com/packages/lf20_rzewd6re.json"></lottie-player>
                 {%- if section.settings.image-1 != blank -%}
-                    <div class="mImages__image">
-                        <img class="mImages__photo" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="1000" data-aos-offset="100" src="{{ section.settings.image-1 | img_url: '640x' }}"
+                    <div class="mImages__image" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="1000" data-aos-offset="100">
+                        <img class="mImages__photo" src="{{ section.settings.image-1 | img_url: '640x' }}"
                              alt="{{ section.settings.image-1.alt | escape }}"
 
                         >
