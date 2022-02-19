@@ -11,6 +11,11 @@
   
 <script>
     AOS.init();
+
+    var image = document.getElementsByClassName('mImages__image');
+    new simpleParallax(image, {
+	    orientation: 'right'
+    });
 </script>
 
 <div class="mImages mImages--about">
