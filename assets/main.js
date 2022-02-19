@@ -21,7 +21,7 @@ $(document).ready(function(){
 		var main = $('#keyFeatures-main');
 		var listItem = $('.keyFeatures__list li');
 
-		$(listItem).hover(function(){
+		$(listItem).hover(function() {
 			var targetImage = $(this).attr('data-img');
 			$(main).fadeOut('fast', function () {
 				$(main).attr('src',targetImage);
