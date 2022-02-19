@@ -15,14 +15,6 @@ $(document).ready(function(){
 	//$(prodDesc).css('height', '100px');
 
 
-	$('#switch').hover(function() {
-		$(this).attr('src', imgArr[0]);
-		var self = $(this);
-		holder = setInterval(switchImages,1000);
-	}, function() {
-		clearInterval(holder)
-	});
-
 	mImageHover();
 
 	function mImageHover() {
@@ -34,7 +26,7 @@ $(document).ready(function(){
 			$(main).fadeOut('fast', function () {
 				$(main).attr('src',targetImage);
 				$(main).fadeIn('fast');
-			}, );
+			});
 		});
 	}
 });
