@@ -4,7 +4,7 @@
       <div class="keyFeatures__row row">
         <div class="keyFeatures__col keyFeatures__col--image">
           {%- if section.settings.key-feature-1-image != blank -%}
-          <img class="mImages__image" src="{{ section.settings.key-feature-1-image | img_url: '485x' }}"
+          <img id="mImage-main" class="mImages__image" src="{{ section.settings.key-feature-1-image | img_url: '485x' }}"
                alt="{{ section.settings.image-1.alt | escape }}"
                loading="lazy"
                >
@@ -13,12 +13,12 @@
         <div class="keyFeatures__col keyFeatures__col--copy">
           <span class="keyFeatures__subheadline">{{ section.settings.key-feature-headline }}</span>
           <ul class="keyFeatures__list">
-            <li>{{ section.settings.key-feature-1 }}</li>
-            <li>{{ section.settings.key-feature-2 }}</li>
-            <li>{{ section.settings.key-feature-3 }}</li>
-            <li>{{ section.settings.key-feature-4 }}</li>
-            <li>{{ section.settings.key-feature-5 }}</li>
-            <li>{{ section.settings.key-feature-6 }}</li>
+            <li data-img="{{ 'uleva-od-stresu.png' | asset_url }}">{{ section.settings.key-feature-1 }}</li>
+            <li data-img="{{ 'uleva-od-bolesti.png' | asset_url }}">{{ section.settings.key-feature-2 }}</li>
+            <li data-img="{{ 'vyssi-soustredeni.png' | asset_url }}">{{ section.settings.key-feature-3 }}</li>
+            <li data-img="{{ 'svalova-regenerace.png' | asset_url }}">{{ section.settings.key-feature-4 }}</li>
+            <li data-img="{{ 'bolestiva-menstruace.png' | asset_url }}">{{ section.settings.key-feature-5 }}</li>
+            <li data-img="{{ 'lepsi-spanek.png' | asset_url }}">{{ section.settings.key-feature-6 }}</li>
           </ul>
         </div>
       </div>

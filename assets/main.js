@@ -13,4 +13,10 @@ $(document).ready(function(){
 
 	});
 	//$(prodDesc).css('height', '100px');
+
+	mImageHover();
+
+	function mImageHover() {
+		//var main = $('#');
+	}
 });
