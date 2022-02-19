@@ -25,7 +25,7 @@ $(document).ready(function(){
 			var targetImage = $(this).attr('data-img');
 			//$(main).attr('src', targetImage);
 
-			$(main).fadeOut('fast', function () {
+			$(main).fadeIn('fast', function () {
 				$(main).attr('src',targetImage);
 			});
 		});
