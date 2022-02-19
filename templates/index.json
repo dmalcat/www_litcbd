@@ -93,7 +93,7 @@
     "1638735141ca197ce2": {
       "type": "keyFeatures",
       "settings": {
-        "key-feature-1-image": "shopify:\/\/shop_images\/slideshow-placeholder.png",
+        "key-feature-1-image": "shopify:\/\/shop_images\/uleva-od-stresu.png",
         "key-feature-headline": "",
         "key-feature-1": "Úleva od stresu",
         "key-feature-2": "Úleva od bolesti",
@@ -101,6 +101,15 @@
         "key-feature-4": "Svalová regenerace",
         "key-feature-5": "Bolestivá menstruace",
         "key-feature-6": "Lepší spánek"
+      }
+    },
+    "16452697300ec5ba6b": {
+      "type": "hp-about",
+      "settings": {
+        "subheading": "Section sub-heading",
+        "heading": "Section heading",
+        "text": "<p>Section copy<\/p>",
+        "image_first": false
       }
     },
     "1638714623f1dc3786": {
@@ -189,6 +198,7 @@
     "1642707205e9108884",
     "multi_column",
     "1638735141ca197ce2",
+    "16452697300ec5ba6b",
     "1638714623f1dc3786",
     "16387166999076beaf",
     "163871703234ffbf84",

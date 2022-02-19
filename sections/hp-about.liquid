@@ -1,0 +1,70 @@
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script>
+    AOS.init();
+  </script>
+
+
+<div class="mImages mImages--about" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+    <div class="page-width">
+      <div class="mImages__wrapper wrapper">
+        <div class="mImages__row{% if section.settings.image_first %} mImages__row--image-first{% endif %} row">
+          <div class="mImages__col mImages__col--copy">
+             <span class="mImages__subheadline">{{ section.settings.subheading }}</span>
+             <h2 class="mImages__headline">{{ section.settings.heading }}</h2>
+             <div class="mImages__text">{{ section.settings.text }}</div>
+          </div>
+          <div class="mImages__col mImages__col--img">
+            <div class="mImages__imageInner">
+              <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
+				<dotlottie-player src="https://assets6.lottiefiles.com/dotlotties/dlf10_7jktnahf.lottie"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" autoplay></dotlottie-player>
+            </div>
+          </div>
+        </div>
+        </div>
+     </div>
+</div>
+
+{% schema %}
+  {
+    "name": "HP about",
+    "settings": [
+		{
+          "type": "text",
+          "id": "subheading",
+          "default": "Section sub-heading",
+          "label": "Section sub-heading"
+        },        
+		{
+          "type": "text",
+          "id": "heading",
+          "default": "Section heading",
+          "label": "Section heading"
+        },
+		{
+          "type": "richtext",
+          "id": "text",
+		  "default": "<p>Section copy</p>",
+          "label": "Section copy"
+        },
+  		{
+          "type": "checkbox",
+          "id": "image_first",
+          "default": false,
+          "label": "Image first?"
+        },
+		{
+		  "type": "image_picker",
+		  "id": "image-1",
+      	  "label": "Section image 1"
+        }
+	],
+	"presets": [
+      {
+        "name": "HP about",
+        "category": "Custom"
+      }
+	]
+}
+{% endschema %}
+
