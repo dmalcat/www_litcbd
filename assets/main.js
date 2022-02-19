@@ -28,6 +28,7 @@ $(document).ready(function(){
 		});
 	}
 
-	var image = document.getElementsByClassName('mImages__image');
-	new simpleParallax(image);
+	var paralaxImage = document.getElementsByClassName('mImages__image');
+	new simpleParallax(paralaxImage);
+	console.log(paralaxImage);
 });
