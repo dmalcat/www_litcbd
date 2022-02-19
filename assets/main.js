@@ -29,6 +29,7 @@ $(document).ready(function(){
 					$(main).fadeIn('fast');
 				});
 			}, 500);
+			clearInterval();
 		});
 	}
 });
