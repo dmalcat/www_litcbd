@@ -12,8 +12,6 @@ $(document).ready(function(){
 		}
 
 	});
-	//$(prodDesc).css('height', '100px');
-
 
 	mImageHover();
 
@@ -29,4 +27,9 @@ $(document).ready(function(){
 			});
 		});
 	}
+
+	var image = document.getElementsByClassName('mImages__image');
+	new simpleParallax(image, {
+		scale: 1.1
+	});
 });
