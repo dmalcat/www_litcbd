@@ -23,11 +23,7 @@ $(document).ready(function(){
 
 		$(listItem).hover(function(){
 			var targetImage = $(this).attr('data-img');
-			console.log(targetImage);
+			$(main).attr('src', targetImage);
 		});
-
-		//console.log(currImg);
-
-
 	}
 });
