@@ -28,7 +28,7 @@ $(document).ready(function(){
 					$(main).attr('src',targetImage);
 					$(main).fadeIn('fast');
 				});
-			});
+			}, 500);
 		});
 	}
 });
