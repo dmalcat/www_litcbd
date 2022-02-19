@@ -143,16 +143,6 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-healthcare.png"
       }
     },
-    "1638717525fdcc9cd8": {
-      "type": "section-with-multiple-images",
-      "settings": {
-        "subheading": "Pro vaše zdraví",
-        "heading": "Inspirujte se k péči o tělo i duši.",
-        "text": "<p>Soustředíme se na wellbeing těla i ducha. Náš produkt děláme s ohledem na vaše zdraví a jeho rozmanité aspekty.<\/p>",
-        "image_first": true,
-        "image-1": "shopify:\/\/shop_images\/4.png"
-      }
-    },
     "16387175907c131fcd": {
       "type": "section-with-multiple-images",
       "settings": {
@@ -203,7 +193,6 @@
     "16452967520d62a28d",
     "16452981388c56ee47",
     "164529946239720a12",
-    "1638717525fdcc9cd8",
     "16387175907c131fcd",
     "featured_products",
     "16387372266544d159"
