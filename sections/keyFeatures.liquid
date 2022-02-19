@@ -4,7 +4,7 @@
       <div class="keyFeatures__row row">
         <div class="keyFeatures__col keyFeatures__col--image">
           {%- if section.settings.key-feature-1-image != blank -%}
-          <img class="mImages__image" src="{{ section.settings.key-feature-1-image | img_url: '485x' }}"
+          <img id="mImage-main" class="mImages__image" src="{{ section.settings.key-feature-1-image | img_url: '485x' }}"
                alt="{{ section.settings.image-1.alt | escape }}"
                loading="lazy"
                >
