@@ -19,8 +19,13 @@
 	}
 
 	.mImages__row--image-first {
+		.mImages__col--copy {
+			margin-right: 0;
+		}
+
 		.mImages__col--img {
 			order: -1;
+			margin-right: 210px;
 			@include max940px {
 				order: 0;
 			}
