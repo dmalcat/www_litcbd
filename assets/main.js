@@ -15,6 +15,7 @@ $(document).ready(function(){
 	//$(prodDesc).css('height', '100px');
 
 
+	holder = setInterval(switchImages,1000); }, function() { clearInterval(holder) });
 	mImageHover();
 
 	function mImageHover() {
