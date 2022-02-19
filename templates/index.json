@@ -106,9 +106,9 @@
     "16452697300ec5ba6b": {
       "type": "hp-about",
       "settings": {
-        "subheading": "Section sub-heading",
-        "heading": "Section heading",
-        "text": "<p>Section copy<\/p>",
+        "subheading": "O nás",
+        "heading": "Vždy nás fascinovalo, jak dobré konopí umí pomáhat tělu i mysli.",
+        "text": "<p>Proto jsme se rozhodli dělat tak kvalitní produkt, jak jen dovedeme. Bez chemikálií, jak to umí sama příroda.<\/p>",
         "image_first": false,
         "image-1": "shopify:\/\/shop_images\/img-hp-about.png"
       }
