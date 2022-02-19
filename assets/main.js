@@ -21,7 +21,9 @@ $(document).ready(function(){
 		var currImg = $(main).attr('src');
 		var listItem = $('.keyFeatures__list li');
 
-		$(listItem)
+		$(listItem).hover(function(){
+			console.log('hovered');
+		});
 
 		//console.log(currImg);
 
