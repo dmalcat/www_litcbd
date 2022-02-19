@@ -18,13 +18,10 @@ $(document).ready(function(){
 
 	function mImageHover() {
 		var main = $('#mImage-main');
-		var currImg = $(main).attr('src');
 		var listItem = $('.keyFeatures__list li');
 
 		$(listItem).hover(function(){
 			var targetImage = $(this).attr('data-img');
-			//$(main).attr('src', targetImage);
-
 			$(main).fadeOut('fast', function () {
 				$(main).attr('src',targetImage);
 				$(main).fadeIn('fast');
