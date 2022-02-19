@@ -106,20 +106,11 @@
     "16452697300ec5ba6b": {
       "type": "hp-about",
       "settings": {
-        "subheading": "Section sub-heading",
-        "heading": "Section heading",
-        "text": "<p>Section copy<\/p>",
-        "image_first": false
-      }
-    },
-    "1638714623f1dc3786": {
-      "type": "section-with-multiple-images",
-      "settings": {
         "subheading": "O nás",
-        "heading": "Vždy nás fascinovalo,  jak dobré konopí umí  pomáhat tělu i mysli.",
+        "heading": "Vždy nás fascinovalo, jak dobré konopí umí pomáhat tělu i mysli.",
         "text": "<p>Proto jsme se rozhodli dělat tak kvalitní produkt, jak jen dovedeme. Bez chemikálií, jak to umí sama příroda.<\/p>",
         "image_first": false,
-        "image-1": "shopify:\/\/shop_images\/1.png"
+        "image-1": "shopify:\/\/shop_images\/img-hp-about.png"
       }
     },
     "16387166999076beaf": {
@@ -199,7 +190,6 @@
     "multi_column",
     "1638735141ca197ce2",
     "16452697300ec5ba6b",
-    "1638714623f1dc3786",
     "16387166999076beaf",
     "163871703234ffbf84",
     "1638717525fdcc9cd8",
