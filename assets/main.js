@@ -23,13 +23,10 @@ $(document).ready(function(){
 
 		$(listItem).hover(function(){
 			var targetImage = $(this).attr('data-img');
-			setInterval(function(){
-				$(main).fadeOut('fast', function () {
-					$(main).attr('src',targetImage);
-					$(main).fadeIn('fast');
-				});
-			}, 500);
-			clearInterval();
+			$(main).fadeOut('fast', function () {
+				$(main).attr('src',targetImage);
+				$(main).fadeIn('fast');
+			});
 		});
 	}
 });
