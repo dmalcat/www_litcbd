@@ -28,6 +28,6 @@ $(document).ready(function(){
 		});
 	}
 
-	var paralaxImage = document.getElementsByClassName('mImages__image');
+	var paralaxImage = document.getElementsByClassName('paralax');
 	new simpleParallax(paralaxImage);
 });
