@@ -1,12 +1,67 @@
+<div class="mImages">
+    <div class="page-width">
+      <div class="mImages__wrapper wrapper">
+        <div class="mImages__row{% if section.settings.image_first %} mImages__row--image-first{% endif %} row">
+          <div class="mImages__col mImages__col--copy">
+             <span class="mImages__subheadline">{{ section.settings.subheading }}</span>
+             <h2 class="mImages__headline">{{ section.settings.heading }}</h2>
+             <div class="mImages__text">{{ section.settings.text }}</div>
+          </div>
+          <div class="mImages__col mImages__col--img">
+            <div class="mImages__imageInner">
+              {%- if section.settings.image-1 != blank -%}
+                <img class="mImages__image" src="{{ section.settings.image-1 | img_url: '640x' }}"
+                  alt="{{ section.settings.image-1.alt | escape }}"
+                  loading="lazy"
+                >
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+        </div>
+     </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+    "name": "HP about",
+    "settings": [
+		{
+          "type": "text",
+          "id": "subheading",
+          "default": "Section sub-heading",
+          "label": "Section sub-heading"
+        },        
+		{
+          "type": "text",
+          "id": "heading",
+          "default": "Section heading",
+          "label": "Section heading"
+        },
+		{
+          "type": "richtext",
+          "id": "text",
+		  "default": "<p>Section copy</p>",
+          "label": "Section copy"
+        },
+  		{
+          "type": "checkbox",
+          "id": "image_first",
+          "default": false,
+          "label": "Image first?"
+        },
+		{
+		  "type": "image_picker",
+		  "id": "image-1",
+      	  "label": "Section image 1"
+        }
+	],
+	"presets": [
+      {
+        "name": "HP about",
+        "category": "Custom"
+      }
+	]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
