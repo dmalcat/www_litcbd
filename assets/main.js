@@ -17,6 +17,6 @@ $(document).ready(function(){
 	mImageHover();
 
 	function mImageHover() {
-		//var main = $('#');
+		var main = $('#');
 	}
 });
