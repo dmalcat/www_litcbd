@@ -13,4 +13,6 @@ $(document).ready(function(){
 
 	});
 	//$(prodDesc).css('height', '100px');
+
+	
 });
