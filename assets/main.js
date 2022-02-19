@@ -23,7 +23,12 @@ $(document).ready(function(){
 
 		$(listItem).hover(function(){
 			var targetImage = $(this).attr('data-img');
-			$(main).attr('src', targetImage);
+			//$(main).attr('src', targetImage);
+
+			$(main).fadeOut('fast', function () {
+				$(main).attr('src',targetImage);
+				$(main).fadeIn('fast');
+			});
 		});
 	}
 });
