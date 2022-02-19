@@ -19,6 +19,12 @@ $(document).ready(function(){
 	function mImageHover() {
 		var main = $('#mImage-main');
 		var currImg = $(main).attr('src');
-		console.log(currImg);
+		var listItem = $('.keyFeatures__list li');
+
+		$(listItem)
+
+		//console.log(currImg);
+
+
 	}
 });
