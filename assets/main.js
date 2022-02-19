@@ -30,5 +30,4 @@ $(document).ready(function(){
 
 	var paralaxImage = document.getElementsByClassName('mImages__image');
 	new simpleParallax(paralaxImage);
-	console.log(paralaxImage);
 });
