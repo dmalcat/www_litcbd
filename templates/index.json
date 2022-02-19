@@ -103,6 +103,15 @@
         "key-feature-6": "Lepší spánek"
       }
     },
+    "16452697300ec5ba6b": {
+      "type": "hp-about",
+      "settings": {
+        "subheading": "Section sub-heading",
+        "heading": "Section heading",
+        "text": "<p>Section copy<\/p>",
+        "image_first": false
+      }
+    },
     "1638714623f1dc3786": {
       "type": "section-with-multiple-images",
       "settings": {
@@ -189,6 +198,7 @@
     "1642707205e9108884",
     "multi_column",
     "1638735141ca197ce2",
+    "16452697300ec5ba6b",
     "1638714623f1dc3786",
     "16387166999076beaf",
     "163871703234ffbf84",
