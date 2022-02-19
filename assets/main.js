@@ -17,7 +17,7 @@ $(document).ready(function(){
 	mImageHover();
 
 	function mImageHover() {
-		var main = $('#mImage-main');
+		var main = $('#keyFeatures-main');
 		var listItem = $('.keyFeatures__list li');
 
 		$(listItem).hover(function(){
