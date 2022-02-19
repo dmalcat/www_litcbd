@@ -113,6 +113,16 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-about.png"
       }
     },
+    "16452967520d62a28d": {
+      "type": "hp-approach",
+      "settings": {
+        "subheading": "Náš přístup",
+        "heading": "U nás si nekoupíte jen květy nebo olej, ale komplexní proces.",
+        "text": "<p>Od řízků až po curing, péči o naše konopí si hlídáme ve všech fázích jeho růstu. Cesta rostlin začíná v laboratořích, pokračuje přes naší pěstírnu o rozloze 1853 m2, a končí ve skle, aby uchovalo to nejlepší.<\/p>",
+        "image_first": true,
+        "image-1": "shopify:\/\/shop_images\/img-hp-approach.png"
+      }
+    },
     "16387166999076beaf": {
       "type": "section-with-multiple-images",
       "settings": {
@@ -190,6 +200,7 @@
     "multi_column",
     "1638735141ca197ce2",
     "16452697300ec5ba6b",
+    "16452967520d62a28d",
     "16387166999076beaf",
     "163871703234ffbf84",
     "1638717525fdcc9cd8",
