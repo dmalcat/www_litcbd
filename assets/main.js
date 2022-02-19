@@ -27,7 +27,6 @@ $(document).ready(function(){
 
 			$(main).fadeOut('fast', function () {
 				$(main).attr('src',targetImage);
-				$(main).fadeIn('fast');
 			});
 		});
 	}
