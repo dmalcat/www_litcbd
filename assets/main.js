@@ -22,7 +22,8 @@ $(document).ready(function(){
 		var listItem = $('.keyFeatures__list li');
 
 		$(listItem).hover(function(){
-			console.log('hovered');
+			var targetImage = $(this).attr('data-img');
+			console.log(targetImage);
 		});
 
 		//console.log(currImg);
