@@ -123,6 +123,16 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-approach.png"
       }
     },
+    "16452981388c56ee47": {
+      "type": "hp-technology",
+      "settings": {
+        "subheading": "Technologie a inovace",
+        "heading": "Posouváme standardy tuzemské growerské komunity.",
+        "text": "<p>Nenásledujeme trendy. Vytváříme je. Česká republika podle nás totiž patří na konopnou mapu světa a rozhodně má šanci konkurovat zahraničním velikánům.<\/p>",
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/img-hp-technology.png"
+      }
+    },
     "163871703234ffbf84": {
       "type": "section-with-multiple-images",
       "settings": {
@@ -191,6 +201,7 @@
     "1638735141ca197ce2",
     "16452697300ec5ba6b",
     "16452967520d62a28d",
+    "16452981388c56ee47",
     "163871703234ffbf84",
     "1638717525fdcc9cd8",
     "16387175907c131fcd",
