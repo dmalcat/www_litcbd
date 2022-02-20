@@ -133,14 +133,14 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-technology.png"
       }
     },
-    "163871703234ffbf84": {
-      "type": "section-with-multiple-images",
+    "1645363101b2f20b6a": {
+      "type": "hp-healthcare",
       "settings": {
-        "subheading": "Technologie a inovace",
-        "heading": "Posouváme standardy tuzemské growerské komunity",
-        "text": "<p>Nenásledujeme trendy. Vytváříme je. Česká republika podle nás totiž patří na konopnou mapu světa a rozhodně má šanci konkurovat zahraničním velikánům.<\/p>",
-        "image_first": false,
-        "image-1": "shopify:\/\/shop_images\/3.png"
+        "subheading": "Pro vaše zdraví",
+        "heading": "Inspirujte se k péči o tělo i duši.",
+        "text": "<p>Soustředíme se na wellbeing těla i ducha. Náš produkt děláme s ohledem na vaše zdraví a jeho rozmanité aspekty.<\/p>",
+        "image_first": true,
+        "image-1": "shopify:\/\/shop_images\/img-hp-healthcare.png"
       }
     },
     "1638717525fdcc9cd8": {
@@ -202,7 +202,7 @@
     "164536288896cbf3cb",
     "1645362908be2c0cdf",
     "16453630388c687ea5",
-    "163871703234ffbf84",
+    "1645363101b2f20b6a",
     "1638717525fdcc9cd8",
     "16387175907c131fcd",
     "featured_products",
