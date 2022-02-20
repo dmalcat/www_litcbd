@@ -103,7 +103,7 @@
         "key-feature-6": "Lepší spánek"
       }
     },
-    "16452697300ec5ba6b": {
+    "164536288896cbf3cb": {
       "type": "hp-about",
       "settings": {
         "subheading": "O nás",
@@ -113,7 +113,7 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-about.png"
       }
     },
-    "16452967520d62a28d": {
+    "1645362908be2c0cdf": {
       "type": "hp-approach",
       "settings": {
         "subheading": "Náš přístup",
@@ -123,7 +123,7 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-approach.png"
       }
     },
-    "16452981388c56ee47": {
+    "16453630388c687ea5": {
       "type": "hp-technology",
       "settings": {
         "subheading": "Technologie a inovace",
@@ -133,7 +133,7 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-technology.png"
       }
     },
-    "164529946239720a12": {
+    "1645363101b2f20b6a": {
       "type": "hp-healthcare",
       "settings": {
         "subheading": "Pro vaše zdraví",
@@ -189,10 +189,10 @@
     "1642707205e9108884",
     "multi_column",
     "1638735141ca197ce2",
-    "16452697300ec5ba6b",
-    "16452967520d62a28d",
-    "16452981388c56ee47",
-    "164529946239720a12",
+    "164536288896cbf3cb",
+    "1645362908be2c0cdf",
+    "16453630388c687ea5",
+    "1645363101b2f20b6a",
     "16387175907c131fcd",
     "featured_products",
     "16387372266544d159"
