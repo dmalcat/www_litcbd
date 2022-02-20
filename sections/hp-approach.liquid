@@ -1,20 +1,36 @@
-<div class="mImages">
+<div class="mImages mImages--approach">
     <div class="page-width">
       <div class="mImages__wrapper wrapper">
         <div class="mImages__row{% if section.settings.image_first %} mImages__row--image-first{% endif %} row">
-          <div class="mImages__col mImages__col--copy">
+          <div class="mImages__col mImages__col--copy" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-once="true">
              <span class="mImages__subheadline">{{ section.settings.subheading }}</span>
              <h2 class="mImages__headline">{{ section.settings.heading }}</h2>
              <div class="mImages__text">{{ section.settings.text }}</div>
           </div>
           <div class="mImages__col mImages__col--img">
             <div class="mImages__imageInner">
-              {%- if section.settings.image-1 != blank -%}
-                <img class="mImages__photo" src="{{ section.settings.image-1 | img_url: '640x' }}"
-                  alt="{{ section.settings.image-1.alt | escape }}"
-                  loading="lazy"
-                >
-              {%- endif -%}
+                <lottie-player class="mImages__symbol" id="approach-symbol" src="https://assets7.lottiefiles.com/packages/lf20_vfp10fsr.json"></lottie-player>
+                {%- if section.settings.image-1 != blank -%}
+                    <div class="mImages__image" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="1000" data-aos-offset="100" data-aos-once="true">
+                        <img class="mImages__photo" src="{{ section.settings.image-1 | img_url: '640x' }}"
+                             alt="{{ section.settings.image-1.alt | escape }}"
+                        >
+                    </div>
+                {%- endif -%}
+
+
+                <script>
+	                LottieInteractivity.create({
+		                player:'#approach-symbol',
+		                mode:"scroll",
+		                actions: [
+			                {
+				                visibility: [0, 1.0],
+				                type: "play"
+			                }
+		                ]
+	                });
+                </script>
             </div>
           </div>
         </div>
@@ -24,7 +40,7 @@
 
 {% schema %}
   {
-    "name": "Multiple images section",
+    "name": "HP approach",
     "settings": [
 		{
           "type": "text",
@@ -58,7 +74,7 @@
 	],
 	"presets": [
       {
-        "name": "Multiple images section",
+        "name": "HP approach",
         "category": "Custom"
       }
 	]
