@@ -1,0 +1,98 @@
+<!-- Lottie animations -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+
+<!-- Paralax -->
+<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+<script>
+    AOS.init();
+</script>
+
+<div class="mImages mImages--about">
+    <div class="page-width">
+      <div class="mImages__wrapper wrapper">
+        <div class="mImages__row{% if section.settings.image_first %} mImages__row--image-first{% endif %} row">
+          <div class="mImages__col mImages__col--copy" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-once="true">
+             <span class="mImages__subheadline">{{ section.settings.subheading }}</span>
+             <h2 class="mImages__headline">{{ section.settings.heading }}</h2>
+             <div class="mImages__text">{{ section.settings.text }}</div>
+          </div>
+          <div class="mImages__col mImages__col--img">
+            <div class="mImages__imageInner">
+                <lottie-player class="mImages__symbol" id="about-symbol" src="https://assets3.lottiefiles.com/packages/lf20_rzewd6re.json"></lottie-player>
+                {%- if section.settings.image-1 != blank -%}
+                    <div class="mImages__image" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="1000" data-aos-offset="100" data-aos-once="true">
+                        <img class="mImages__photo" src="{{ section.settings.image-1 | img_url: '640x' }}"
+                             alt="{{ section.settings.image-1.alt | escape }}"
+                        >
+                    </div>
+                {%- endif -%}
+
+
+                <script>
+	                LottieInteractivity.create({
+		                player:'#about-symbol',
+		                mode:"scroll",
+		                actions: [
+			                {
+				                visibility: [0, 1.0],
+				                type: "play"
+			                }
+		                ]
+	                });
+                </script>
+            </div>
+          </div>
+        </div>
+        </div>
+     </div>
+</div>
+
+{% schema %}
+  {
+    "name": "HP about",
+    "settings": [
+		{
+          "type": "text",
+          "id": "subheading",
+          "default": "Section sub-heading",
+          "label": "Section sub-heading"
+        },        
+		{
+          "type": "text",
+          "id": "heading",
+          "default": "Section heading",
+          "label": "Section heading"
+        },
+		{
+          "type": "richtext",
+          "id": "text",
+		  "default": "<p>Section copy</p>",
+          "label": "Section copy"
+        },
+  		{
+          "type": "checkbox",
+          "id": "image_first",
+          "default": false,
+          "label": "Image first?"
+        },
+		{
+		  "type": "image_picker",
+		  "id": "image-1",
+      	  "label": "Section image 1"
+        }
+	],
+	"presets": [
+      {
+        "name": "HP about",
+        "category": "Custom"
+      }
+	]
+}
+{% endschema %}
+
