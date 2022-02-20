@@ -12,25 +12,5 @@ $(document).ready(function(){
 		}
 
 	});
-
-	mImageHover();
-
-	function mImageHover() {
-		var main = $('#keyFeatures-main');
-		var listItem = $('.keyFeatures__list li');
-
-		$(listItem).hover(function() {
-			var targetImage = $(this).attr('data-img');
-			$(main).fadeOut('fast', function () {
-				$(main).attr('src',targetImage);
-				$(main).fadeIn('slow');
-			});
-		});
-	}
-
-	var paralaxImage = document.getElementsByClassName('mImages__photo');
-	new simpleParallax(paralaxImage, {
-		overflow: true,
-		scale: 1.5
-	});
+	//$(prodDesc).css('height', '100px');
 });
