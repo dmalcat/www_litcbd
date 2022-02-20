@@ -103,44 +103,44 @@
         "key-feature-6": "Lepší spánek"
       }
     },
-    "16452697300ec5ba6b": {
-      "type": "hp-about",
+    "1638714623f1dc3786": {
+      "type": "section-with-multiple-images",
       "settings": {
         "subheading": "O nás",
-        "heading": "Vždy nás fascinovalo, jak dobré konopí umí pomáhat tělu i mysli.",
+        "heading": "Vždy nás fascinovalo,  jak dobré konopí umí  pomáhat tělu i mysli.",
         "text": "<p>Proto jsme se rozhodli dělat tak kvalitní produkt, jak jen dovedeme. Bez chemikálií, jak to umí sama příroda.<\/p>",
         "image_first": false,
-        "image-1": "shopify:\/\/shop_images\/img-hp-about.png"
+        "image-1": "shopify:\/\/shop_images\/1.png"
       }
     },
-    "16452967520d62a28d": {
-      "type": "hp-approach",
+    "16387166999076beaf": {
+      "type": "section-with-multiple-images",
       "settings": {
         "subheading": "Náš přístup",
         "heading": "U nás si nekoupíte jen květy nebo olej, ale komplexní proces.",
         "text": "<p>Od řízků až po curing, péči o naše konopí si hlídáme ve všech fázích jeho růstu. Cesta rostlin začíná v laboratořích, pokračuje přes naší pěstírnu o rozloze 1853 m2, a končí ve skle, aby uchovalo to nejlepší.<\/p>",
         "image_first": true,
-        "image-1": "shopify:\/\/shop_images\/img-hp-approach.png"
+        "image-1": "shopify:\/\/shop_images\/2.png"
       }
     },
-    "16452981388c56ee47": {
-      "type": "hp-technology",
+    "163871703234ffbf84": {
+      "type": "section-with-multiple-images",
       "settings": {
         "subheading": "Technologie a inovace",
-        "heading": "Posouváme standardy tuzemské growerské komunity.",
+        "heading": "Posouváme standardy tuzemské growerské komunity",
         "text": "<p>Nenásledujeme trendy. Vytváříme je. Česká republika podle nás totiž patří na konopnou mapu světa a rozhodně má šanci konkurovat zahraničním velikánům.<\/p>",
         "image_first": false,
-        "image-1": "shopify:\/\/shop_images\/img-hp-technology.png"
+        "image-1": "shopify:\/\/shop_images\/3.png"
       }
     },
-    "164529946239720a12": {
-      "type": "hp-healthcare",
+    "1638717525fdcc9cd8": {
+      "type": "section-with-multiple-images",
       "settings": {
         "subheading": "Pro vaše zdraví",
         "heading": "Inspirujte se k péči o tělo i duši.",
         "text": "<p>Soustředíme se na wellbeing těla i ducha. Náš produkt děláme s ohledem na vaše zdraví a jeho rozmanité aspekty.<\/p>",
         "image_first": true,
-        "image-1": "shopify:\/\/shop_images\/img-hp-healthcare.png"
+        "image-1": "shopify:\/\/shop_images\/4.png"
       }
     },
     "16387175907c131fcd": {
@@ -189,10 +189,10 @@
     "1642707205e9108884",
     "multi_column",
     "1638735141ca197ce2",
-    "16452697300ec5ba6b",
-    "16452967520d62a28d",
-    "16452981388c56ee47",
-    "164529946239720a12",
+    "1638714623f1dc3786",
+    "16387166999076beaf",
+    "163871703234ffbf84",
+    "1638717525fdcc9cd8",
     "16387175907c131fcd",
     "featured_products",
     "16387372266544d159"

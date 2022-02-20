@@ -238,6 +238,10 @@
   }
 }
 
+.card__media-full-spacer {
+  padding: 2rem;
+}
+
 .card-article-info {
   margin-top: 1rem;
   display: flex;
