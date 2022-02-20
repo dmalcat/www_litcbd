@@ -123,16 +123,6 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-approach.png"
       }
     },
-    "16387166999076beaf": {
-      "type": "section-with-multiple-images",
-      "settings": {
-        "subheading": "Náš přístup",
-        "heading": "U nás si nekoupíte jen květy nebo olej, ale komplexní proces.",
-        "text": "<p>Od řízků až po curing, péči o naše konopí si hlídáme ve všech fázích jeho růstu. Cesta rostlin začíná v laboratořích, pokračuje přes naší pěstírnu o rozloze 1853 m2, a končí ve skle, aby uchovalo to nejlepší.<\/p>",
-        "image_first": true,
-        "image-1": "shopify:\/\/shop_images\/2.png"
-      }
-    },
     "163871703234ffbf84": {
       "type": "section-with-multiple-images",
       "settings": {
@@ -192,6 +182,16 @@
         "soft_background": false,
         "show_view_all": true
       }
+    },
+    "16453630388c687ea5": {
+      "type": "hp-technology",
+      "settings": {
+        "subheading": "Technologie a inovace",
+        "heading": "Posouváme standardy tuzemské growerské komunity.",
+        "text": "<p>Nenásledujeme trendy. Vytváříme je. Česká republika podle nás totiž patří na konopnou mapu světa a rozhodně má šanci konkurovat zahraničním velikánům.<\/p>",
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/img-hp-technology.png"
+      }
     }
   },
   "order": [
@@ -201,11 +201,11 @@
     "1638735141ca197ce2",
     "164536288896cbf3cb",
     "1645362908be2c0cdf",
-    "16387166999076beaf",
     "163871703234ffbf84",
     "1638717525fdcc9cd8",
     "16387175907c131fcd",
     "featured_products",
-    "16387372266544d159"
+    "16387372266544d159",
+    "16453630388c687ea5"
   ]
 }
