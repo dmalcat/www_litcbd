@@ -9,8 +9,8 @@
 		max-width: 1680px;
 		width: 100%;
 		margin: 0 auto;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
+		padding: 1rem 50px;
+		z-index: 200;
 
 		.header__col--nav {
 			display: flex;
@@ -62,5 +62,5 @@
 }
 
 .header__icon--cart {
-	margin-right: 15px !important;
+	margin-right: 0 !important;
 }
