@@ -103,14 +103,24 @@
         "key-feature-6": "Lepší spánek"
       }
     },
-    "1638714623f1dc3786": {
-      "type": "section-with-multiple-images",
+    "164536288896cbf3cb": {
+      "type": "hp-about",
       "settings": {
         "subheading": "O nás",
-        "heading": "Vždy nás fascinovalo,  jak dobré konopí umí  pomáhat tělu i mysli.",
+        "heading": "Vždy nás fascinovalo, jak dobré konopí umí pomáhat tělu i mysli.",
         "text": "<p>Proto jsme se rozhodli dělat tak kvalitní produkt, jak jen dovedeme. Bez chemikálií, jak to umí sama příroda.<\/p>",
         "image_first": false,
-        "image-1": "shopify:\/\/shop_images\/1.png"
+        "image-1": "shopify:\/\/shop_images\/img-hp-about.png"
+      }
+    },
+    "1645362908be2c0cdf": {
+      "type": "hp-approach",
+      "settings": {
+        "subheading": "Náš přístup",
+        "heading": "U nás si nekoupíte jen květy nebo olej, ale komplexní proces.",
+        "text": "<p>Od řízků až po curing, péči o naše konopí si hlídáme ve všech fázích jeho růstu. Cesta rostlin začíná v laboratořích, pokračuje přes naší pěstírnu o rozloze 1853 m2, a končí ve skle, aby uchovalo to nejlepší.<\/p>",
+        "image_first": true,
+        "image-1": "shopify:\/\/shop_images\/img-hp-approach.png"
       }
     },
     "16387166999076beaf": {
@@ -182,16 +192,6 @@
         "soft_background": false,
         "show_view_all": true
       }
-    },
-    "164536288896cbf3cb": {
-      "type": "hp-about",
-      "settings": {
-        "subheading": "O nás",
-        "heading": "Vždy nás fascinovalo, jak dobré konopí umí pomáhat tělu i mysli.",
-        "text": "<p>Proto jsme se rozhodli dělat tak kvalitní produkt, jak jen dovedeme. Bez chemikálií, jak to umí sama příroda.<\/p>",
-        "image_first": false,
-        "image-1": "shopify:\/\/shop_images\/img-hp-about.png"
-      }
     }
   },
   "order": [
@@ -199,13 +199,13 @@
     "1642707205e9108884",
     "multi_column",
     "1638735141ca197ce2",
-    "1638714623f1dc3786",
+    "164536288896cbf3cb",
+    "1645362908be2c0cdf",
     "16387166999076beaf",
     "163871703234ffbf84",
     "1638717525fdcc9cd8",
     "16387175907c131fcd",
     "featured_products",
-    "16387372266544d159",
-    "164536288896cbf3cb"
+    "16387372266544d159"
   ]
 }
