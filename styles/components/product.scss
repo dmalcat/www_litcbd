@@ -1,14 +1,28 @@
 @import '../config';
+@import '../core/breakpoints';
 
 .product {
 	.product__media-wrapper {
 		max-width: 50% !important;
 		width: 50% !important;
+		@include max640px {
+			max-width: 100% !important;
+			width: 100% !important;
+		}
 	}
 
 	.product__info-wrapper {
 		max-width: 50% !important;
 		width: 50% !important;
+		@media screen and (max-width: 740px) {
+			padding-left: 2rem;
+		}
+
+		@include max640px {
+			max-width: 100% !important;
+			width: 100% !important;
+			padding-left: 0;
+		}
 	}
 
 	.product__title {
@@ -17,6 +31,18 @@
 		color: $white;
 		margin-bottom: 18px;
 		font-weight: 900;
+		@include max940px {
+			font-size: 48px;
+		}
+
+		@include max480px {
+			font-size: 9vw;
+		}
+	}
+
+	.product__media-item {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 
 	.product__info-container {
@@ -25,10 +51,17 @@
 			overflow: hidden;
 			margin-bottom: 0;
 			transition: all 300ms ease-in-out;
+			@include max940px {
+				height: 90px;
+			}
+
 			* {
 				font-size: 24px;
 				line-height: 160%;
 				color: #8A90A3;
+				@include max940px {
+					font-size: 18px;
+				}
 			}
 		}
 
@@ -42,6 +75,9 @@
 			margin-top: 0;
 			margin-bottom: 64px;
 			font-size: 20px;
+			@include max768px {
+				margin-bottom: 2.5rem;
+			}
 		}
 	}
 
@@ -106,5 +142,40 @@
 	max-width: 100% !important;
 	.product__title {
 		text-align: left !important;
+	}
+}
+
+.product-recommendations {
+	.grid {
+		@include max640px {
+			justify-content: space-between;
+		}
+	}
+
+	.grid__item {
+		@include max640px {
+			max-width: 49%;
+		}
+	}
+
+	.card-information__text {
+		@include max640px {
+			font-size: 20px;
+			min-height: 78px;
+		}
+	}
+
+	.price {
+		.price-item {
+			@include max640px {
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+.product-media-modal__toggle .icon {
+	path {
+		fill: $black;
 	}
 }

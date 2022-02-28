@@ -38,12 +38,10 @@ h2 {
 	font-size: $h2-font-size;
 	line-height: 1.125;
 	font-weight: 800;
-	@include max640px {
-		font-size: 1.5em;
-	}
+
 
 	@include max480px {
-		font-size: 1.25em;
+		font-size: 7vw;
 	}
 }
 

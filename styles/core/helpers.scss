@@ -1,4 +1,5 @@
 @import '../config';
+@import '../core/breakpoints';
 
 // Display and position definitions
 // --------------------------------
@@ -156,4 +157,18 @@
 
 .gray {
 	color: #8096AF;
+}
+
+.mobile-only {
+	display: none;
+	@include max640px {
+		display: initial;
+	}
+}
+
+.desktop-only {
+	display: initial;
+	@include max640px {
+		display: none;
+	}
 }
