@@ -411,11 +411,6 @@ a.product__text {
     width: calc(100% + 4rem);
   }
 
-  .product__media-wrapper slider-component {
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-  }
-
   .slider.slider--mobile.product__media-list {
     padding-bottom: 0;
     margin-bottom: 0.5rem;
