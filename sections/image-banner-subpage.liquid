@@ -104,7 +104,7 @@
 
 <section class="growing">
 	<div class="growing__wrapper wrapper">
-		<h1>Pěstování</h1>
+		<h1>Jak pěstujeme?</h1>
 
 		<div class="growing__row" id="growing-slider">
 			<div class="growing__item">
@@ -171,6 +171,8 @@
 				</div>
 			</div>
 		</div>
+		<div class="prev">doleva</div>
+		<div class="next">doprava</div>
 	</div>
 </section>
 
@@ -178,6 +180,8 @@
 	$(document).ready(function(){
 		$('#growing-slider').slick({
 			slidesToShow: 2,
+			prevArrow: $('.prev'),
+			nextArrow: $('.next'),
 		});
 	});
 </script>
