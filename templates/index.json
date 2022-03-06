@@ -182,6 +182,22 @@
         "soft_background": false,
         "show_view_all": true
       }
+    },
+    "1646585276cad15d96": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Květy",
+        "collection": "kvety",
+        "products_to_show": 3,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
@@ -195,6 +211,7 @@
     "1645363101b2f20b6a",
     "164658349933d25906",
     "featured_products",
-    "16387372266544d159"
+    "16387372266544d159",
+    "1646585276cad15d96"
   ]
 }
