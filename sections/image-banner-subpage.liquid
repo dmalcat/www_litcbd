@@ -90,11 +90,12 @@
       {%- endfor -%}
     </div>
   </div>
-  <div class="banner__text">
-    {%- for block in section.blocks -%}
-      <span>{{ block.settings.text | escape }}</span>
-    {%- endfor -%}
-  </div>
+</div>
+
+<div class="banner__text">
+  {%- for block in section.blocks -%}
+    <span>{{ block.settings.text | escape }}</span>
+  {%- endfor -%}
 </div>
 
 {% schema %}
