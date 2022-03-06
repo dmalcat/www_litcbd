@@ -167,7 +167,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Oleje",
-        "collection": "all",
+        "collection": "oleje",
         "products_to_show": 6,
         "show_view_all": true,
         "swipe_on_mobile": true,
