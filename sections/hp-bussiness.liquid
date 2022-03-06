@@ -1,15 +1,4 @@
-<!-- Paralax -->
-<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
-
-<!-- AOS -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  
-<script>
-    AOS.init();
-</script>
-
-<div class="mImages mImages--about">
+<div class="mImages mImages--bussiness">
     <div class="page-width">
       <div class="mImages__wrapper wrapper">
         <div class="mImages__row{% if section.settings.image_first %} mImages__row--image-first{% endif %} row">
@@ -20,7 +9,7 @@
           </div>
           <div class="mImages__col mImages__col--img">
             <div class="mImages__imageInner">
-                <lottie-player class="mImages__symbol" id="about-symbol" src="https://assets3.lottiefiles.com/packages/lf20_rzewd6re.json"></lottie-player>
+                <lottie-player class="mImages__symbol" id="bussiness-symbol" src="https://assets7.lottiefiles.com/packages/lf20_gr4rcfyw.json"></lottie-player>
                 {%- if section.settings.image-1 != blank -%}
                     <div class="mImages__image" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="1000" data-aos-offset="100" data-aos-once="true">
                         <img class="mImages__photo" src="{{ section.settings.image-1 | img_url: '640x' }}"
@@ -32,7 +21,7 @@
 
                 <script>
 	                LottieInteractivity.create({
-		                player:'#about-symbol',
+		                player:'#bussiness-symbol',
 		                mode:"scroll",
 		                actions: [
 			                {
@@ -51,7 +40,7 @@
 
 {% schema %}
   {
-    "name": "HP about",
+    "name": "HP bussiness",
     "settings": [
 		{
           "type": "text",
@@ -85,7 +74,7 @@
 	],
 	"presets": [
       {
-        "name": "HP about",
+        "name": "HP bussiness",
         "category": "Custom"
       }
 	]

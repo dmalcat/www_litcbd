@@ -42,7 +42,7 @@
         "linktext-2": "Květy",
         "button_image-2": "shopify:\/\/shop_images\/kvety.png",
         "link-3": "shopify:\/\/collections\/doplnky",
-        "linktext-3": "Ostatní",
+        "linktext-3": "Doplňky",
         "button_image-3": "shopify:\/\/shop_images\/doplnky.png"
       }
     },
@@ -93,7 +93,7 @@
     "1638735141ca197ce2": {
       "type": "keyFeatures",
       "settings": {
-        "key-feature-1-image": "shopify:\/\/shop_images\/uleva-od-stresu.png",
+        "key-feature-1-image": "shopify:\/\/shop_images\/lepsi-spanek.png",
         "key-feature-headline": "Produkty LitCBD pro",
         "key-feature-1": "Hlubší snění",
         "key-feature-2": "Kvalitnější prožitky",
@@ -143,8 +143,8 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-healthcare.png"
       }
     },
-    "16387175907c131fcd": {
-      "type": "section-with-multiple-images",
+    "164658349933d25906": {
+      "type": "hp-bussiness",
       "settings": {
         "subheading": "Vracíme zpět",
         "heading": "Dobrý byznys je podle nás ten, který má pozitivní dopad na okolní svět.",
@@ -158,7 +158,7 @@
       "settings": {
         "title": "Oleje",
         "collection": "oleje",
-        "products_to_show": 6,
+        "products_to_show": 3,
         "show_view_all": true,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
@@ -182,22 +182,6 @@
         "soft_background": false,
         "show_view_all": true
       }
-    },
-    "1646127045c0ee74da": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Květy",
-        "collection": "kvety",
-        "products_to_show": 6,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
     }
   },
   "order": [
@@ -209,9 +193,8 @@
     "1645362908be2c0cdf",
     "16453630388c687ea5",
     "1645363101b2f20b6a",
-    "16387175907c131fcd",
+    "164658349933d25906",
     "featured_products",
-    "16387372266544d159",
-    "1646127045c0ee74da"
+    "16387372266544d159"
   ]
 }
