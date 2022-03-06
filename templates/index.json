@@ -143,6 +143,16 @@
         "image-1": "shopify:\/\/shop_images\/img-hp-healthcare.png"
       }
     },
+    "164658349933d25906": {
+      "type": "hp-bussiness",
+      "settings": {
+        "subheading": "Vracíme zpět",
+        "heading": "Dobrý byznys je podle nás ten, který má pozitivní dopad na okolní svět.",
+        "text": "<p>Chceme se podělit o svůj úspěch a radost, kterou nám konopí přináší. Proto spolupracujeme s neziskovou organizací Home 4 Pets.<\/p>",
+        "image_first": false,
+        "image-1": "shopify:\/\/shop_images\/homepage.png"
+      }
+    },
     "16387175907c131fcd": {
       "type": "section-with-multiple-images",
       "settings": {
@@ -193,6 +203,7 @@
     "1645362908be2c0cdf",
     "16453630388c687ea5",
     "1645363101b2f20b6a",
+    "164658349933d25906",
     "16387175907c131fcd",
     "featured_products",
     "16387372266544d159"
