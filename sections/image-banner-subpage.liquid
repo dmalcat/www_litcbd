@@ -185,7 +185,7 @@
 
 <script>
 	$(document).ready(function(){
-		$('#growing-slider').slick({
+		$('.slider').slick({
 			slidesToShow: 2,
 			prevArrow: $('.growing__arrow--prev'),
 			nextArrow: $('.growing__arrow--next')
@@ -240,14 +240,30 @@
 			</div>
 		</div>
 
-		<div class="growing__row" id="growing-slider">
+		<div class="growing__row slider">
 			<div class="growing__item">
-				<h2 class="growing__count">00</h2>
-				<p class="growing__copy">
-					Naši genetiku ladíme v laboratořích ČZU, kde provádíme vývoj a výzkum našich procesů a odrůd. Poznatky uvádíme v život v naší pěstírně o <strong>rozloze 1853m<sup>2</sup></strong>.
-				</p>
 				<div class="growing__image">
-					<img src="{{ 'growing-00.png' | asset_url }}" alt="">
+					<img src="{{ 'activities-1.png' | asset_url }}" alt="">
+				</div>
+			</div>
+			<div class="growing__item">
+				<div class="growing__image">
+					<img src="{{ 'activities-2.png' | asset_url }}" alt="">
+				</div>
+			</div>
+			<div class="growing__item">
+				<div class="growing__image">
+					<img src="{{ 'activities-3.png' | asset_url }}" alt="">
+				</div>
+			</div>
+			<div class="growing__item">
+				<div class="growing__image">
+					<img src="{{ 'activities-4.png' | asset_url }}" alt="">
+				</div>
+			</div>
+			<div class="growing__item">
+				<div class="growing__image">
+					<img src="{{ 'activities-5.png' | asset_url }}" alt="">
 				</div>
 			</div>
 		</div>
