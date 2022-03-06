@@ -1,1 +1,1 @@
-{"version":3,"sources":["growing.scss"],"names":[],"mappings":"AAAA,YAEE,YAAa,KAAA,QAAA,IAAA,CAAA,WACb,WAAY,OACZ,YAAa,IACb,UAAW,KACX,YAAa","file":"5-ui.min.css","sourcesContent":[".growing {\n\th2 {\n\t\tfont-family: Plus Jakarta Sans, sans-serif;\n\t\tfont-style: normal;\n\t\tfont-weight: 800;\n\t\tfont-size: 32px;\n\t\tline-height: 105%;\n\t}\n}"]}
+{"version":3,"sources":["growing.scss"],"names":[],"mappings":"AAAA,YAEE,UAAW","file":"5-ui.min.css","sourcesContent":[".growing {\n\th2 {\n\t\tfont-size: 32px;\n\t}\n}"]}
