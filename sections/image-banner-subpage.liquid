@@ -107,10 +107,10 @@
 		<h1>Jak pěstujeme?</h1>
 
 		<div class="growing__arrows">
-			<div class="growing__arrow growing__arrow--prev">
+			<div class="growing__arrow growing__arrow--prev growing__arrow--slider1">
 				<img src="{{ 'arrow-left.svg' | asset_url }}" alt="">
 			</div>
-			<div class="growing__arrow growing__arrow--next">
+			<div class="growing__arrow growing__arrow--next growing__arrow--slider1">
 				<img src="{{ 'arrow-right.svg' | asset_url }}" alt="">
 			</div>
 		</div>
@@ -185,10 +185,16 @@
 
 <script>
 	$(document).ready(function(){
-		$('slider').slick({
+		$('#slider-1').slick({
 			slidesToShow: 2,
-			prevArrow: $('.growing__arrow--prev'),
-			nextArrow: $('.growing__arrow--next')
+			prevArrow: $('.growing__arrow--prev.growing__arrow--slider1'),
+			nextArrow: $('.growing__arrow--next.growing__arrow--slider1')
+		});
+
+		$('#slider-2').slick({
+			slidesToShow: 2,
+			prevArrow: $('.growing__arrow--prev..growing__arrow--slider2'),
+			nextArrow: $('.growing__arrow--next..growing__arrow--slider2')
 		});
 	});
 </script>
