@@ -168,7 +168,7 @@
       "settings": {
         "title": "Oleje",
         "collection": "oleje",
-        "products_to_show": 6,
+        "products_to_show": 3,
         "show_view_all": true,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
