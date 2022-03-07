@@ -1,7 +1,37 @@
 @import '../config';
+@import '../core/breakpoints';
 
 .footer {
 	background-color: $black;
+	.footer__blocks-wrapper {
+		display: flex;
+		justify-content: space-between;
+		@include max940px {
+			flex-flow: row wrap;
+		}
+
+		.footer-block {
+			padding-left: 0;
+			width: 15%;
+			@include max940px {
+				width: 30%;
+				margin-bottom: 2rem;
+			}
+
+			@include max768px {
+				width: 50%;
+			}
+		}
+
+		.footer-block__newsletter {
+			width: 30%;
+			@include max768px {
+				width: 100%;
+				max-width: 100%;
+			}
+		}
+	}
+
 	.footer-block__heading {
 		margin-bottom: 2rem;
 		font-size: 26px;
@@ -17,9 +47,5 @@
 		margin-top: 0;
 		margin-bottom: 0.25rem;
 		text-decoration: none !important;
-	}
-
-	.footer__content-bottom {
-
 	}
 }
