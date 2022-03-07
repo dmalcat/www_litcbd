@@ -1,0 +1,98 @@
+@import '../core/helpers.scss';
+@import '../core/breakpoints';
+
+.growing {
+	margin-top: 200px;
+	@include max940px {
+		margin-top: 100px;
+	}
+
+	@include max640px {
+		margin-top: 75px;
+	}
+
+	&.growing--activities {
+		margin-top: 0;
+	}
+
+	.growing__wrapper {
+		max-width: 1165px;
+		@media screen and (max-width: 1350px) {
+			padding: 0 2rem;
+		}
+	}
+
+	.growing__row {
+		@media screen and (max-width: 1350px) {
+			padding-right: 20px;
+			box-sizing: border-box;
+		}
+
+		@include max768px {
+			padding-right: 0;
+		}
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	.growing__copy {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		line-height: 1.6;
+		min-height: 160px;
+		color: #8F93A8;
+		@media screen and (max-width: 1350px) {
+			min-height: 195px;
+		}
+	}
+
+	.slick-list {
+		margin-right: -80px;
+		@media screen and (max-width: 1350px) {
+			margin-right: 0;
+		}
+	}
+
+	.growing__item {
+		margin-left: 0;
+		margin-right: 80px;
+		@media screen and (max-width: 1350px) {
+			margin-right: 20px;
+		}
+
+		@include max768px {
+			margin-right: 0;
+		}
+	}
+
+	.growing__image {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.growing__arrows {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.growing__arrow {
+	margin-right: 30px;
+	cursor: pointer;
+	@extend .trans;
+}
+
+.growing__arrow--left {
+	&:hover {
+		margin-left: -5px;
+	}
+}
+
+.growing__arrow--right {
+	&:hover {
+		margin-right: -5px;
+	}
+}

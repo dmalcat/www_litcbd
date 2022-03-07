@@ -15,15 +15,6 @@
 		}
 	}
 
-	.banner__media {
-		background-color: $black;
-		img {
-			max-width: 860px !important;
-			right: 0;
-			left: auto !important;
-		}
-	}
-
 	.banner__wrapper {
 		max-width: 1920px;
 	}
@@ -90,5 +81,33 @@
 		@include max480px {
 			font-size: calc(2.25rem + 3vw);
 		}
+	}
+}
+
+#shopify-section-template--15267862872222__main {
+	display: none;
+}
+
+.banner--subpage {
+	.banner__content {
+		height: auto;
+	}
+}
+
+.banner__text--subpage {
+	display: block;
+	text-align: center;
+	max-width: 970px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 4rem 2rem 4rem;
+	font-size: 24px;
+	line-height: 1.6;
+	@include max480px {
+		font-size: 19px;
+	}
+
+	span {
+		color: #8a90a3;
 	}
 }

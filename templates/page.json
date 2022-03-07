@@ -1,10 +1,59 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1646592140701a3a02": {
+      "type": "image-banner-subpage",
+      "blocks": {
+        "16465921402eaf6ebd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "O nás",
+            "heading_size": "medium"
+          }
+        },
+        "16465921402eaf6ebd-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lit CBD bylo založeno v roce 2020, inspirováno prací s konopím na západě, zejména v Kalifornii. Tento rok zároveň naplno odhalil akutní potřebu společnosti zastavit se a vytvořit si vlastní prostor. CBD je podle nás pro to skvělý prostředek."
+          }
+        },
+        "16465921402eaf6ebd-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16465921402eaf6ebd-0",
+        "16465921402eaf6ebd-1",
+        "16465921402eaf6ebd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/o-nas-hero.png",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1646592140701a3a02"
   ]
 }
