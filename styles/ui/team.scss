@@ -65,6 +65,36 @@
 			padding-left: 0;
 			margin-bottom: 5px;
 			font-size: 16px;
+			&:first-child {
+				.bar {
+					width: 260px;
+				}
+			}
+
+			&:nth-of-type(2) {
+				.bar {
+					width: 220px;
+				}
+			}
+
+			&:nth-of-type(3) {
+				.bar {
+					width: 180px;
+				}
+			}
+
+			&:nth-of-type(4) {
+				.bar {
+					width: 140px;
+				}
+			}
+		}
+
+		.bar {
+			display: block;
+			background-color: $white;
+			height: 8px;
+			width: 260px;
 		}
 	}
 }
