@@ -11,18 +11,19 @@
         "16465921402eaf6ebd-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "O nás",
             "heading_size": "medium"
           }
         },
         "16465921402eaf6ebd-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
+            "text": "Lit CBD bylo založeno v roce 2020, inspirováno prací s konopím na západě, zejména v Kalifornii. Tento rok zároveň naplno odhalil akutní potřebu společnosti zastavit se a vytvořit si vlastní prostor. CBD je podle nás pro to skvělý prostředek."
           }
         },
         "16465921402eaf6ebd-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
