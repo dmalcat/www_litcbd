@@ -66,3 +66,49 @@
 		text-align: left;
 	}
 }
+
+.blog-articles {
+	.article-card {
+		background-color: transparent;
+	}
+
+	.article-card__info {
+		text-align: left;
+		margin-top: 24px;
+	}
+
+	.article-card__footer {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.article-card__link {
+		font-weight: 900;
+	}
+}
+
+.article-template {
+	.article-template__hero-container {
+		margin-top: 0 !important;
+	}
+
+	.article-template__hero-medium {
+		//max-width: 860px;
+		height: 500px;
+	}
+
+	.article-template__content {
+		* {
+			font-size: 24px;
+			color: #8A90A3;
+		}
+	}
+
+	.share-button__button {
+		color: #8A90A3;
+	}
+
+	.share-button__fallback {
+		background-color: black;
+	}
+}
