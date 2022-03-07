@@ -462,12 +462,6 @@ noscript .localization-selector.link {
   }
 }
 
-@media screen and (max-width: 749px) {
-  .footer-block-image {
-    text-align: center;
-  }
-}
-
 .footer-block-image > img {
   height: auto;
 }
