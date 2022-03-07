@@ -2,6 +2,12 @@
 @import '../core/breakpoints';
 
 .banner {
+	&.banner--homepage {
+		.banner__heading {
+			display: none;
+		}
+	}
+
 	.banner__box {
 		background-color: transparent;
 	}
