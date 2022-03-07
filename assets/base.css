@@ -1183,7 +1183,7 @@ deferred-media {
   background-color: rgba(var(--color-button), var(--alpha-button-background));
   box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border));
   color: rgb(var(--color-button-text));
-  min-width: 12rem;
+  min-width: 18rem;
   min-height: 4.5rem;
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
