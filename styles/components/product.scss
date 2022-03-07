@@ -47,7 +47,7 @@
 
 	.product__info-container {
 		.product__description {
-			height: 80px;
+			height: 140px;
 			overflow: hidden;
 			margin-bottom: 0;
 			transition: all 300ms ease-in-out;
@@ -178,4 +178,13 @@
 	path {
 		fill: $black;
 	}
+}
+
+.product-label {
+	display: inline-block;
+	background-color: $white;
+	padding: 0.25rem 0.5rem;
+	color: $black !important;
+	font-family: $circular;
+	margin-bottom: 1rem;
 }
