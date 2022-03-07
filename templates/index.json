@@ -41,7 +41,7 @@
         "link-2": "shopify:\/\/collections\/kvety",
         "linktext-2": "Květy",
         "button_image-2": "shopify:\/\/shop_images\/kvety.png",
-        "link-3": "shopify:\/\/collections\/doplnky",
+        "link-3": "shopify:\/\/collections\/vape-pen",
         "linktext-3": "Doplňky",
         "button_image-3": "shopify:\/\/shop_images\/doplnky.png"
       }
@@ -202,7 +202,7 @@
     "164665063504996be4": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Novinky z CBD světa",
         "blog": "news",
         "post_limit": 2,
         "show_image": true,
